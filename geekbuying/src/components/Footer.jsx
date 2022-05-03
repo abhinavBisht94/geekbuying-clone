@@ -7,7 +7,10 @@ const Footer = () => {
       <div id="footTop">
         <div id="footTopLeft">
           <div id="footSubscribe">
-            <input type="text" placeholder="Enter email to get a 5% off coupon" />
+            <input
+              type="text"
+              placeholder="Enter email to get a 5% off coupon"
+            />
             <button>Suscribe</button>
           </div>
 
@@ -32,27 +35,27 @@ const Footer = () => {
         <div id="footTopRight">
           <div id="footTopIcons">
             <div id="footTopIconsLeft">
-              <button>FB</button>
-              <button>YT</button>
-              <button>TG</button>
-              <button>IG</button>
-              <button>TW</button>
-              <button>BLO</button>
+              <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" />
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" />
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111710.png" />
+              <img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" />
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" />
+              <img src="https://cdn-icons-png.flaticon.com/512/49/49046.png" />
             </div>
 
             <div id="footTopIconsRight">
               <div>
-                <button>MOB</button>
+                <img src="https://cdn-icons-png.flaticon.com/512/0/191.png" />
                 <p>Mobile</p>
               </div>
 
               <div>
-                <button>AD</button>
+                <img src="https://cdn-icons-png.flaticon.com/512/152/152753.png" />
                 <p>Android</p>
               </div>
 
               <div>
-                <button>ios</button>
+                <img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" />
                 <p>iOS</p>
               </div>
             </div>

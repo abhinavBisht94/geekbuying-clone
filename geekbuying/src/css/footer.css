@@ -42,7 +42,11 @@
   justify-content: space-evenly;
   width: 350px;
 }
-
+#footTopIconsLeft img,
+#footTopIconsRight img {
+  width: 20px;
+  height: 20px;
+}
 #footTopIconsRight {
   display: flex;
   justify-content: space-between;
