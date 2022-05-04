@@ -3,7 +3,7 @@ import React from 'react'
 export const Home = () => {
    
   return (
-    <div style={{background:"#f2f2f2",height:"1600px",width:"100%"}}>
+    <div style={{background:"#f2f2f2",height:"3500px",width:"100%"}}>
       <div className='reddiv'>
         <div className='slideshow'></div>
         <div className='side-div'>
@@ -141,7 +141,368 @@ export const Home = () => {
               <p className="discription" >1080P resolution, 250 lumens, it projects high-resolution images, more outstanding details.</p>
           </div>
       </div>
-      
+      <div className='five-div'>
+          <div className='five-div-block'>
+          {/* <button>abc</button> */}
+
+          <div className='five-div-title'></div>
+            <div className='five-div-title-image'>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+          {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
+                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹14937.58</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹16903.16</del>
+                    </div>
+                    <div className='discount'>12% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹3380.00</p>
+                    </div>
+                    <div className='offer-price'>
+                    <del>₹3773.12</del>
+                    </div>
+                    <div className='discount'>10% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹675.37</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1178.56</del>
+                    </div>
+                    <div className='discount'>43% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1021.31</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1571.67</del>
+                    </div>
+                    <div className='discount'>35% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1178.56</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1964.79</del>
+                    </div>
+                    <div className='discount'>40% OFF</div>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div className='five-div'>
+          <div className='five-div-block'>
+          {/* <button>abc</button> */}
+
+          <div className='five-div-title'></div>
+            <div className='five-div-title-image'>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+          {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
+                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹14937.58</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹16903.16</del>
+                    </div>
+                    <div className='discount'>12% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹3380.00</p>
+                    </div>
+                    <div className='offer-price'>
+                    <del>₹3773.12</del>
+                    </div>
+                    <div className='discount'>10% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹675.37</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1178.56</del>
+                    </div>
+                    <div className='discount'>43% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1021.31</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1571.67</del>
+                    </div>
+                    <div className='discount'>35% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1178.56</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1964.79</del>
+                    </div>
+                    <div className='discount'>40% OFF</div>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div className='popular-brand' >
+          <div className='pb'>Popular Brand</div>
+          <div className='popular-brand-div-container'>
+
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img  src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783" alt="" />
+              </div>
+              <div></div>
+          </div>
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img src="https://img.gkbcdn.com/s3/b/Logo/jimmy.jpg?v=-219567574" alt="" />
+              </div>
+              <div></div>
+          </div>
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img src="https://img.gkbcdn.com/s3/b/Logo/roborock.jpg" alt="" />
+              </div>
+              <div></div>
+          </div>
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img src="https://img.gkbcdn.com/s3/b/eleglide.jpg" alt="" />
+              </div>
+              <div></div>
+          </div>
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img src="https://img.gkbcdn.com/s3/b/sculpfun-6AlQjHhs.jpg" alt="" />
+              </div>
+              <div></div>
+          </div>
+          <div className='popular-brand-div' >
+              <div className='popular-brand-div-img'>
+                  <img src="https://img.gkbcdn.com/s3/b/artillery.jpg" alt="" />
+              </div>
+              <div></div>
+          </div>
+          </div>
+      </div>
+      <div className='five-div'>
+          <div className='five-div-block'>
+          {/* <button>abc</button> */}
+
+          <div className='five-div-title'></div>
+            <div className='five-div-title-image'>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+          {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
+                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹14937.58</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹16903.16</del>
+                    </div>
+                    <div className='discount'>12% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹3380.00</p>
+                    </div>
+                    <div className='offer-price'>
+                    <del>₹3773.12</del>
+                    </div>
+                    <div className='discount'>10% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹675.37</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1178.56</del>
+                    </div>
+                    <div className='discount'>43% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1021.31</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1571.67</del>
+                    </div>
+                    <div className='discount'>35% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1178.56</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1964.79</del>
+                    </div>
+                    <div className='discount'>40% OFF</div>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div className='five-div'>
+          <div className='five-div-block'>
+          {/* <button>abc</button> */}
+
+          <div className='five-div-title'></div>
+            <div className='five-div-title-image'>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+          {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
+                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹14937.58</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹16903.16</del>
+                    </div>
+                    <div className='discount'>12% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹3380.00</p>
+                    </div>
+                    <div className='offer-price'>
+                    <del>₹3773.12</del>
+                    </div>
+                    <div className='discount'>10% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹675.37</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1178.56</del>
+                    </div>
+                    <div className='discount'>43% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1021.31</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1571.67</del>
+                    </div>
+                    <div className='discount'>35% OFF</div>
+                </div>
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                    <div className='product-price'>
+                        <p>₹1178.56</p>
+                    </div>
+                    <div className='offer-price'>
+                        <del>₹1964.79</del>
+                    </div>
+                    <div className='discount'>40% OFF</div>
+                </div>
+            </div>
+            </div>
+          </div>
+      </div>
     </div>
   )
 }
