@@ -1,0 +1,111 @@
+nav {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+/* ----- navTop Starts ----- */
+#navTop {
+  /* border: 1px solid red; */
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: flex-end;
+  height: 35px;
+  font-size: 12px;
+  margin: 0 6rem;
+}
+#navTop p {
+  cursor: pointer;
+}
+#navTop div {
+  margin-left: 40px;
+}
+
+#navTop img {
+  width: 1.3rem;
+  height: 1rem;
+}
+
+#navTop .navTopArrow {
+  width: 0.8rem;
+}
+
+/* ----- navMid Starts ----- */
+#navMid {
+  margin: 0 6rem;
+  height: 5rem;
+  display: flex;
+}
+#navMid {
+  display: flex;
+  justify-content: space-between;
+}
+#navMidLogo {
+  width: 10rem;
+  height: 5rem;
+  cursor: pointer;
+}
+#navMidLogo div {
+  display: flex;
+}
+#navMidSelect {
+  border: 1px solid #074ea3;
+  border-right: none;
+  height: 2.25rem;
+}
+#navMidSelect:focus {
+  outline: none;
+}
+#navMidInput {
+  border: 1px solid #074ea3;
+  border-left: 1px solid lightgray;
+  width: 20rem;
+  height: 2rem;
+}
+#navMidInput:focus {
+  outline: #074ea3;
+}
+#navMidSearchDiv {
+  display: flex;
+  padding-top: 1.5rem;
+}
+#navMidSearchButton {
+  background-color: #074ea3;
+  border: 1px solid #074ea3;
+  width: 5rem;
+  height: 2.3rem;
+  margin-left: 0;
+  cursor: pointer;
+}
+#navMidSearchImage {
+  width: 1.5rem;
+}
+
+#navMidRightButton {
+  padding-top: 1.5rem;
+}
+#navMidRightButton button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+#navMidRightButton img {
+  height: 1.5rem;
+}
+
+/* ----- navBottom Starts ----- */
+#navBottom {
+  margin: 0 6rem;
+}
+
+#navBottomSelect {
+  border: none;
+}
+
+.navBottomButton {
+  margin-left: 1rem;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+.navBottomButton:hover {
+  color: #074ea3;
+}
