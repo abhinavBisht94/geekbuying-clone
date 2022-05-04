@@ -1,0 +1,28 @@
+/* .parentProduct{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid transparent;
+}
+.strikedoffprice{
+  text-decoration: line-through;
+}
+.priceProduct{
+  display: inline;
+  margin-bottom:5px;
+}
+.imgProduct{
+  margin-bottom:5px;
+}
+.sidebarProduct{
+  margin: 0px 125px;
+  border: 1px solid #eee;
+  padding: 10px 14px 34px 14px;
+  height: 700px;
+}
+*{
+  font-family: "Open Sans", sans-serif !important;
+} */

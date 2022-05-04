@@ -1,11 +1,11 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import logo from './logo.svg';
+import './App.css';
+import { Mobile } from './components/Products/Mobile';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Footer />
+    <Mobile/>
     </div>
   );
 }
