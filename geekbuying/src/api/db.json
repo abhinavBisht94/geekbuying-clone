@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "abcd",
+      "description": "fcgvhbjnkmlcfgvhbjnkml",
+      "price": 600,
+      "discount": 33,
+      "image": "https://cdn-icons-png.flaticon.com/512/731/731985.png"
+    },
+    {
+      "id": 2,
+      "title": "fghj",
+      "description": "dfgvbhnjmkdsfgdseffgfddf",
+      "price": 500,
+      "discount": 33,
+      "image": "https://cdn-icons-png.flaticon.com/512/731/731985.png"
+    }
+  ]
+}
