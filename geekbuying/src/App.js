@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import { Mobile } from './components/Products/Mobile';
-
+import "./App.css";
+import {AuthContextProvider} from './Components/context/AuthContext';
+import Mainroutes from "./Components/Routes/MainRoutes";
 function App() {
   return (
     <div className="App">
-    <Mobile/>
+      <AuthContextProvider>
+    <Mainroutes/>
+      </AuthContextProvider>
+    
     </div>
   );
 }
-
 export default App;
+
