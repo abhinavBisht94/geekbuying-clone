@@ -42,19 +42,30 @@ const NavbarMid = () => {
       {show ? (
         <div id="navMidSelect">
           <div>
-            <p value="home">Smart Home and Garden</p>
-            <p value="phone">Phones & Accessories</p>
-            <p value="computer">Computer, Tablet & Accessories</p>
-            <p value="wearable">Wearable Devices</p>
-            <p value="auto">Automobiles & Motorcycles</p>
-            <p value="sports">Sports and Outdoors</p>
+            <div value="home">Smart Home and Garden</div>
+            <br></br>
+            <div value="phone">Phones & Accessories</div>
+            <br></br>
+            <div value="computer">Computer, Tablet & Accessories</div>
+            <br></br>
+            <div value="wearable">Wearable Devices</div>
+            <br></br>
+            <div value="auto">Automobiles & Motorcycles</div>
+            <br></br>
+            <div value="sports">Sports and Outdoors</div>
+            <br></br>{" "}
           </div>
           <div>
-            <p value="consumer">Consumer Electronics</p>
-            <p value="tv">TV Boxes & Mini PCs</p>
-            <p value="toys">Toys & Hobbies</p>
-            <p value="security">Security System</p>
-            <p value="fashion">Fashion</p>
+            <div value="consumer">Consumer Electronics</div>
+            <br></br>
+            <div value="tv">TV Boxes & Mini PCs</div>
+            <br></br>
+            <div value="toys">Toys & Hobbies</div>
+            <br></br>
+            <div value="security">Security System</div>
+            <br></br>
+            <div value="fashion">Fashion</div>
+            <br></br>{" "}
           </div>
         </div>
       ) : (

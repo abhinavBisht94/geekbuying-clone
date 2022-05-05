@@ -38,6 +38,10 @@
   left: 19rem;
   top: 6.2rem;
 }
+#navMidSelect div div:hover {
+  color: #074ea3;
+  font-weight: bold;
+}
 
 #navMidInput {
   border: 1px solid #074ea3;
@@ -50,7 +54,6 @@
   outline: #074ea3;
 }
 
-/* -------------------------------------------- */
 #navMidSearchDiv {
   display: flex;
   padding-top: 1.5rem;

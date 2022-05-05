@@ -71,6 +71,18 @@ const Navbar = () => {
           <img src="https://cdn-icons-png.flaticon.com/512/57/57055.png" />
         </button>
 
+        {/* <div id="navBottomButtondiv">
+          <button className="navBottomButton">
+            New
+          </button>
+          <button className="navBottomButton">Top Seller</button>
+          <button className="navBottomButton">Brand</button>
+          <button className="navBottomButton">Clearance</button>
+          <button className="navBottomButton">Deals</button>
+          <button className="navBottomButton">Bargain</button>
+          <button className="navBottomButton">Cupon</button>
+        </div> */}
+
         <button className="navBottomButton">New</button>
         <button className="navBottomButton">Top Seller</button>
         <button className="navBottomButton">Brand</button>
@@ -80,6 +92,8 @@ const Navbar = () => {
         <button className="navBottomButton">Cupon</button>
 
         {bottonSelect ? <NavbarBottomSelect /> : ""}
+
+        <div>Hello</div>
       </div>
     </nav>
   );
