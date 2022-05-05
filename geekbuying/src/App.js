@@ -1,14 +1,13 @@
-import Footer from "./components/Footer";
 import { Home } from "./components/home/Home";
-import Navbar from "./components/Navbar";
-import './components/home/home.css';
-
+import "./components/home/home.css";
+import Navbar from "./components/Navbar-Footer/Navbar";
+import Footer from "./components/Navbar-Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home/>
+      <Home />
       <Footer />
     </div>
   );
