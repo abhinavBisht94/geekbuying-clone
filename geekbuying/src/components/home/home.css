@@ -359,7 +359,7 @@ background-color: yellow;
    .popular-brand-div{
        height: 220px;
        width: 47%;
-       background-color: bisque;
+       background-color:#f5f5f5;
        margin-left:18px ;
     
 
@@ -371,4 +371,31 @@ margin: auto;
 
 
    }
-
+.popular-brand-div-second-block{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.popular-brand-div-second-block-3{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.popular-brand-div-second-block>div>img:hover{
+    transform: scale(1.022);
+    margin-top: -2px;
+}
+.popular-brand-div-second-block>div>img:hover{
+transition: transform .2s ease;
+}
+.popular-brand-div-second-block-3>div>img:hover{
+    transform: scale(1.022);
+    margin-top: -2px;
+}
+.popular-brand-div-second-block-3>div>img:hover{
+transition: transform .2s ease;
+}

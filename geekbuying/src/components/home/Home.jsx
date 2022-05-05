@@ -309,37 +309,115 @@ export const Home = () => {
               <div className='popular-brand-div-img'>
                   <img  src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block'>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2020-01-09/Tronsmart-element-T6-plus-Upgrade-Black-895558-._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2019-01-31/tronsmart-element-mega-bluetooth-speaker-black-1571991416189._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2019-10-24/tronsmart-element-t6-max-60w-bluetooth-5-0-nfc-speaker-black-1574132858241._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2019-03-18/tronsmart-element-t6-plus-bluetooth-speaker-black-1574132202231._w280_p1_.jpg" alt="" />
+                  </div>
+
+              </div>
           </div>
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
                   <img src="https://img.gkbcdn.com/s3/b/Logo/jimmy.jpg?v=-219567574" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block'>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2020-01-07/JIMMY-F6-1800W-Electric-Hair-Dryer-Ruby-Red-882508-._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2020-09-18/JIMMY-JV85-Cordless-Handheld-Vacuum-Cleaner-23000Pa-Suction-426268-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2019-05-07/xiaomi-jimmy-jv83-wireless-vacuum-cleaner-blue-1571994426496._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-03-09/JIMMY-H8-Cordless-Handheld-Flexible-Vacuum-Cleaner-Blue-455909-0._w280_p1_.jpg" alt="" />
+                  </div>
+
+              </div>
           </div>
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
                   <img src="https://img.gkbcdn.com/s3/b/Logo/roborock.jpg" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block'>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2022-04-29/roborock-s7-robot-vacuum-cleaner-2500pa-powerful-suction-feadc9-1651214912229._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2020-05-29/roborock-s5-max-robot-vacuum-cleaner-international-version-black-1590736089662._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2020-03-28/Roborock-Smart-Robotic-Vacuum-Cleaner-Rolling-Brush-899581-._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-05-27/Roborock-S7-Robotic-Vacuum-Cleaner-Mop-Cloth-459860-0._w280_p1_.jpg" alt="" />
+                  </div>
+
+              </div>
           </div>
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
                   <img src="https://img.gkbcdn.com/s3/b/eleglide.jpg" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block'>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2022-04-24/eleglide-m1-plus-upgraded-version-electric-bike-12-5ah-250w-black-258649-1650765309927._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2022-04-24/eleglide-m1-upgraded-version-electric-bike-7-5ah-250w-motor-dark-blue-b23cd2-1650765670228._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-09-10/eleglide-s1-plus-folding-electric-scooter-10--pneumatic-tires-black-1631275759377._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-09-14/eleglide-d1-master-off-road-folding-electric-scooter-10--tires-black-1631613267943._w280_p1_.jpg" alt="" />
+                  </div>
+
+              </div>
           </div>
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
                   <img src="https://img.gkbcdn.com/s3/b/sculpfun-6AlQjHhs.jpg" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block-3'>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-12-22/SCULPFUN-S9-Laser-Engraver-481991-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-12-17/Sculpfun-Honeycomb-Panel-200x300mm-481734-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-12-17/Sculpfun-S6-Pro-Laser-Engraver-481732-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  
+              </div>
           </div>
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
                   <img src="https://img.gkbcdn.com/s3/b/artillery.jpg" alt="" />
               </div>
-              <div></div>
+              <div className='popular-brand-div-second-block-3'>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2022-04-24/artillery-sidewinder-x2-3d-printer-3b98f7-1650788405823._w280_.png" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-09-16/Artillery-Genius-Pro-3D-Printer-472514-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  <div style={{height:"100px",width:"31%",margin:"auto",background:"#f5f5f5"}} >
+                      <img src="https://img.gkbcdn.com/p/2021-07-12/Artillery-Hornet-2021-Newest-Model-3D-Printer-with-Metal-Integrated-St-461282-0._w280_p1_.jpg" alt="" />
+                  </div>
+                  
+              </div>
           </div>
           </div>
       </div>
