@@ -1,6 +1,30 @@
 import React from 'react'
-
+import { Counter } from './counter'
+import { useState,useEffect } from 'react'
 export const Home = () => {
+ 
+    const [state, setstate] = useState()
+ var countDownDate = new Date("may 9, 2022 15:37:25").getTime();
+
+
+var x = setInterval(function() {
+  var now = new Date().getTime();
+ var distance = countDownDate - now;
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+    setstate(hours + "h "
+    + minutes + "m " + seconds + "s ")
+      
+   
+    if (distance < 0) {
+      clearInterval(x);
+      setstate("EXPIRED");
+    }
+  }, 1000);
+
+
    
   return (
     <div style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
@@ -42,7 +66,12 @@ export const Home = () => {
       </div>
 
         <div className='third-div'>
-            <div className='third-div-title'></div>
+            <div className='third-div-title'>
+                <div style={{textAlign:"center"}}><  img style={{width:"40px"}}img src="https://mpng.subpng.com/20191121/awz/transparent-shapes-icon-flash-icon-lightning-icon-5dd63b247132f9.2712528715743209324637.jpg" alt="" /></div>
+                <div><p style={{color:"Black",fontSize:"20px",fontWeight:"500"}}>Flash Deal</p></div>
+                <div><p style={{color:"Grey",fontSize:"20px",marginLeft:"30px"}}>Ends in</p></div>
+                <p style={{marginTop:"25px",marginLeft:"25px"}}>{state}</p>
+            </div>
             <div className='third-div-title-image'>
             <div className='third-div-title-images'>
                 <div className='third-div-title-images1'>

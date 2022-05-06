@@ -88,7 +88,7 @@ div > img {
 }
 
 .third-div {
-  background-color: blueviolet;
+  background-color:#ffffff;
   height: 330px;
   width: 80%;
   margin: auto;
@@ -97,9 +97,11 @@ div > img {
   margin-bottom:22px;
 }
 .third-div-title {
-  width: 100%;
+  width: 40%;
   height: 70px;
-  background-color: aqua;
+  margin: auto;
+  display: flex;
+  background-color: rgb(255, 255, 255);
 }
 .third-div-title-image {
   background-color: rgb(255, 255, 255);
