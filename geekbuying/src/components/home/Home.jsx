@@ -3,7 +3,7 @@ import React from 'react'
 export const Home = () => {
    
   return (
-    <div style={{background:"#f2f2f2",height:"3500px",width:"100%"}}>
+    <div style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
       <div className='reddiv'>
         <div className='slideshow'></div>
         <div className='side-div'>
@@ -143,23 +143,25 @@ export const Home = () => {
       </div>
       <div className='five-div'>
           <div className='five-div-block'>
-          {/* <button>abc</button> */}
+        
 
-          <div className='five-div-title'></div>
+          <div className='five-div-title'>
+              <p style={{fontSize:"20px",fontWeight:"400"}}>New Arrivals</p>
+              <a href='' style={{textDecoration:"none", fontSize:"16px",marginTop:"10px"}}>See More</a>
+          </div>
             <div className='five-div-title-image'>
             <div className='five-div-title-images'>
                 <div className='five-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
-                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                    <img src="https://img.gkbcdn.com/p/2022-04-28/Zeblaze-Stratos-2-Smartwatch-1-3---AMOLED-Display-Blue-500033-0._w280_p1_.jpg" alt="" />
                 </div>
                 <div className='five-div-title-images-price'>
+                    <div className='product-discription'>
+                        <p>Zeblaze Stratos 2 Smartwatch 1.3'' AMOLED Display 24</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹14937.58</p>
+                        <p>₹3380.00</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹16903.16</del>
-                    </div>
-                    <div className='discount'>12% OFF</div>
                 </div>
             </div>
             <div className='five-div-title-images'>
@@ -167,13 +169,12 @@ export const Home = () => {
                     <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
                 </div>
                 <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>KUMI KU5 Smartwatch 1.22'' TFT Screen Real-time Health</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹3380.00</p>
+                        <p>₹4480.72</p>
                     </div>
-                    <div className='offer-price'>
-                    <del>₹3773.12</del>
-                    </div>
-                    <div className='discount'>10% OFF</div>
                 </div>
             </div>
             <div className='five-div-title-images'>
@@ -181,13 +182,12 @@ export const Home = () => {
                     <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
                 </div>
                 <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>A pair of LED Luminous Chopsticks Creative Tableware</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹675.37</p>
+                        <p>₹470.95</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1178.56</del>
-                    </div>
-                    <div className='discount'>43% OFF</div>
                 </div>
             </div>
             <div className='five-div-title-images'>
@@ -195,13 +195,12 @@ export const Home = () => {
                     <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
                 </div>
                 <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>ALLDOCUBE iWork GT 2 in 1 Tablet Windows 11 i5-1135G7</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹1021.31</p>
+                        <p>₹69187.45</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1571.67</del>
-                    </div>
-                    <div className='discount'>35% OFF</div>
                 </div>
             </div>
             <div className='five-div-title-images'>
@@ -209,105 +208,164 @@ export const Home = () => {
                     <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
                 </div>
                 <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>Magene HRM60 Heart Rate Monitor IML Colorful Shell</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹1178.56</p>
+                        <p>₹3144.13</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1964.79</del>
-                    </div>
-                    <div className='discount'>40% OFF</div>
                 </div>
+                
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>LED Camping Light 1.8m Adjustable with Tripod 6500-</p>
+                    </div>
+                    <div className='product-price'>
+                        <p>₹2122.03</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div className='five-div-title-images'>
+                <div className='five-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='five-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>Xiaomi Mijia MJJMQ01-ZJ Portable Massage Gun Muscle</p>
+                    </div>
+                    <div className='product-price'>
+                        <p>₹8647.74</p>
+                    </div>
+                </div>
+                
             </div>
             </div>
           </div>
       </div>
-      <div className='five-div'>
-          <div className='five-div-block'>
+      <div className='six-div'>
+          <div className='six-div-block'>
           {/* <button>abc</button> */}
 
-          <div className='five-div-title'></div>
-            <div className='five-div-title-image'>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
+          <div className='six-div-title'>
+          <p style={{fontSize:"20px",fontWeight:"400",marginTop:"10px"}}>Best Sellers</p>
+              <a href='' style={{textDecoration:"none", fontSize:"16px",marginTop:"15px"}}>See More</a>
+          </div>
+            <div className='six-div-title-image'>
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
-                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                    <img src="https://img.gkbcdn.com/p/2019-03-22/tronsmart-glary-virtual-7-1-gaming-headset-1571985014193._w280_p1_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹14937.58</p>
+                <div className='six-div-title-images-price'>
+                    <div className='product-discription'>
+                        <p>Zeblaze Stratos 2 Smartwatch 1.3'' AMOLED Display 24</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹16903.16</del>
-                    </div>
-                    <div className='discount'>12% OFF</div>
-                </div>
-            </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
-                </div>
-                <div className='five-div-title-images-price'>
                     <div className='product-price'>
                         <p>₹3380.00</p>
                     </div>
-                    <div className='offer-price'>
-                    <del>₹3773.12</del>
-                    </div>
-                    <div className='discount'>10% OFF</div>
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-10-11/jjrc-x12-4k-gps-rc-drone-white-two-batteries-with-bag-1574132236117._w280_p1_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>KUMI KU5 Smartwatch 1.22'' TFT Screen Real-time Health</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹675.37</p>
+                        <p>₹4480.72</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1178.56</del>
-                    </div>
-                    <div className='discount'>43% OFF</div>
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-12-09/A9-1080P-Mini-Wireless-WIFI-IP-Camera-480325-0._w280_p1_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>A pair of LED Luminous Chopsticks Creative Tableware</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹1021.31</p>
+                        <p>₹470.95</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1571.67</del>
-                    </div>
-                    <div className='discount'>35% OFF</div>
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2021-11-29/razer-deathadder-essential-optical-gaming-mouse-black-aa9d23-1638169302886._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>ALLDOCUBE iWork GT 2 in 1 Tablet Windows 11 i5-1135G7</p>
+                    </div>
+                    <div className='product-price'>
+                        <p>₹69187.45</p>
+                    </div>
+                </div>
+            </div>
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2019-10-28/enchen-blackstone-3d-smart-electric-shaver-black-1574132742777._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>Magene HRM60 Heart Rate Monitor IML Colorful Shell</p>
+                    </div>
+                    <div className='product-price'>
+                        <p>₹3144.13</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/p/2022-02-09/gamebox-g5-32gb-video-game-console-with-2-gamepads-8fec60-1644387756223._w280_p1_.jpg" alt="" />
+                </div>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>LED Camping Light 1.8m Adjustable with Tripod 6500-</p>
+                    </div>
+                    <div className='product-price'>
+                        <p>₹2122.03</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div className='six-div-title-images'>
+                <div className='six-div-title-images1'>
                     <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
+                <div className='six-div-title-images-price'>
+                <div className='product-discription'>
+                        <p>Xiaomi Mijia MJJMQ01-ZJ Portable Massage Gun Muscle</p>
+                    </div>
                     <div className='product-price'>
-                        <p>₹1178.56</p>
+                        <p>₹8647.74</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1964.79</del>
-                    </div>
-                    <div className='discount'>40% OFF</div>
                 </div>
+                
             </div>
             </div>
           </div>
       </div>
+     
       <div className='popular-brand' >
-          <div className='pb'>Popular Brand</div>
+          <div className='pb'>
+          <div style={{fontSize:"20px",fontWeight:"400",marginTop:"10px"}}>Populars Brand</div>
+              <a href='' style={{textDecoration:"none", fontSize:"16px",marginTop:"15px"}}>See More</a>
+             </div>
           <div className='popular-brand-div-container'>
 
           <div className='popular-brand-div' >
               <div className='popular-brand-div-img'>
-                  <img  src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783" alt="" />
+              <img src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783"/>
               </div>
               <div className='popular-brand-div-second-block'>
                   <div style={{height:"100px",width:"21%",margin:"auto",background:"#f5f5f5"}} >
@@ -421,166 +479,150 @@ export const Home = () => {
           </div>
           </div>
       </div>
-      <div className='five-div'>
-          <div className='five-div-block'>
+      <div className='seven-div'>
+          <div className='seven-div-block'>
           {/* <button>abc</button> */}
 
-          <div className='five-div-title'></div>
-            <div className='five-div-title-image'>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
+          <div className='seven-div-title'>
+          <p style={{fontSize:"20px",fontWeight:"400"}}>Trending Categories</p>
+           
+          </div>
+            <div className='seven-div-title-image'>
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
-                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                    <img src="https://img.gkbcdn.com/s3/c/2109/robotvacuums60d29088e21ad3c62c1974d5-6135e4de2b40c928c4cffc23.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹14937.58</p>
+                <div className='seven-div-title-images-price'>
+                    <div className='product-discription-7'>
+                        <p>Robot Vacuums</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹16903.16</del>
-                    </div>
-                    <div className='discount'>12% OFF</div>
+                  
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/s3/c/2109/02020225144159Outdoor-6135e4ed2b40c92078307531.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹3380.00</p>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>Electric Scooters</p>
                     </div>
-                    <div className='offer-price'>
-                    <del>₹3773.12</del>
-                    </div>
-                    <div className='discount'>10% OFF</div>
+                   
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/s3/c/2112/3d-61b0157f2b40c9211cc0ca18.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹675.37</p>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>3D Printers</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1178.56</del>
-                    </div>
-                    <div className='discount'>43% OFF</div>
+                  
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/s3/c/2109/electronics-6135e6ac2b40c916ac3b2823.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹1021.31</p>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>Electronics</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1571.67</del>
-                    </div>
-                    <div className='discount'>35% OFF</div>
+                  
                 </div>
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/s3/c/2109/02020516164612h6-6135e5222b40c92078307532.jpg" alt="" />
+                </div>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>Cordless Vacuums</p>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
+                    <img src="https://img.gkbcdn.com/s3/c/2112/laptop-61b015fa2b40c9211cc0ca19.jpg" alt="" />
+                </div>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>Laptops & Tablets</p>
+                    </div>
+                  
+                </div>
+                
+            </div>
+            <div className='seven-div-title-images'>
+                <div className='seven-div-title-images1'>
                     <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹1178.56</p>
+                <div className='seven-div-title-images-price'>
+                <div className='product-discription-7'>
+                        <p>Xiaomi Mijia MJJMQ01-ZJ Portable Massage Gun Muscle</p>
                     </div>
-                    <div className='offer-price'>
-                        <del>₹1964.79</del>
-                    </div>
-                    <div className='discount'>40% OFF</div>
+                  
                 </div>
+                
             </div>
             </div>
           </div>
       </div>
-      <div className='five-div'>
-          <div className='five-div-block'>
+      <div className='eight-div'>
+          <div className='eight-div-block'>
           {/* <button>abc</button> */}
 
-          <div className='five-div-title'></div>
-            <div className='five-div-title-image'>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
+          <div className='eight-div-title'>
+          <p style={{fontSize:"22px",fontWeight:"400"}}>Recommendations for you</p>
+           
+          </div>
+            <div className='eight-div-title-image'>
+            <div className='eight-div-title-images'>
+                <div className='eight-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
-                    <img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="" />
+                    <img src="https://img.gkbcdn.com/p/2019-03-18/tronsmart-element-t6-plus-bluetooth-speaker-black-1571991425316._w280_.jpg" alt="" />
                 </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹14937.58</p>
-                    </div>
-                    <div className='offer-price'>
-                        <del>₹16903.16</del>
-                    </div>
-                    <div className='discount'>12% OFF</div>
+                <div className='eight-div-title-images1'>
+         
+                    <img src="https://img.gkbcdn.com/p/2019-03-16/tronsmart-force-mega-t6-t6-plus-speaker-carry-case-1571991604256._w280_.jpg" alt="" />
                 </div>
+                <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2019-07-05/tronsmart-element-force-portable-bluetooth-speaker-1571994482583._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2019-10-24/tronsmart-element-t6-max-60w-bluetooth-5-0-nfc-speaker-black-1574132858241._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2019-01-31/tronsmart-element-mega-bluetooth-speaker-black-1571991416189._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2022-04-25/LED-Portable-Lightweight-Neck-Hung-Lamp-499964-0._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2022-04-29/C2-WIFI-Hidden-Camera-Wireless-Network-Security-Surveillance-Camera-500067-0._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2022-04-16/tronsmart--trip-7b1e84-1650097276239._w280_.jpg" alt="" />
+                 </div>
+             
             </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="" />
-                </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹3380.00</p>
-                    </div>
-                    <div className='offer-price'>
-                    <del>₹3773.12</del>
-                    </div>
-                    <div className='discount'>10% OFF</div>
-                </div>
-            </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2022-02-10/a6r-tws-wireless-earphones-black-4570b2-1644488631155._w280_p1_.jpg" alt="" />
-                </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹675.37</p>
-                    </div>
-                    <div className='offer-price'>
-                        <del>₹1178.56</del>
-                    </div>
-                    <div className='discount'>43% OFF</div>
-                </div>
-            </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2021-11-09/63in1-Screwdriver-Set-Gray-477863-0._w280_p1_.jpg" alt="" />
-                </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹1021.31</p>
-                    </div>
-                    <div className='offer-price'>
-                        <del>₹1571.67</del>
-                    </div>
-                    <div className='discount'>35% OFF</div>
-                </div>
-            </div>
-            <div className='five-div-title-images'>
-                <div className='five-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2019-11-30/tws-i500-earphones-20191130100234539._w280_p1_.jpg" alt="" />
-                </div>
-                <div className='five-div-title-images-price'>
-                    <div className='product-price'>
-                        <p>₹1178.56</p>
-                    </div>
-                    <div className='offer-price'>
-                        <del>₹1964.79</del>
-                    </div>
-                    <div className='discount'>40% OFF</div>
-                </div>
+                
             </div>
             </div>
           </div>
       </div>
-    </div>
+     
+     
+    
   )
 }
