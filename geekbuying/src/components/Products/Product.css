@@ -37,6 +37,7 @@
 .sortProducts{
     text-align:right;
     margin-right: 155px;
+<<<<<<< Updated upstream
     display: inline;
     margin: 4px 139px;
     font-size: 17px;
@@ -53,3 +54,8 @@
   height: 40px;
   margin: 4px 12px;
 }
+=======
+    
+    font-size: 17px;
+}
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 import { ProductTitle,ProductSpan, Grid } from "../styled";
+<<<<<<< Updated upstream
 import React, { useEffect,useState } from "react";
 import './Product.css';
 import { MobileCard } from './MobileCard'
@@ -19,6 +20,29 @@ export const Mobile = () => {
    
   },[])
 
+=======
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import './Product.css';
+import { MobileCard } from './MobileCard'
+import { getProductsData } from '../../redux/actions'
+export const Mobile = () => {
+
+const [product, sortProducts]=React.useState([])
+  const prod = useSelector((state) => state);
+
+  const dispatch = useDispatch();
+  useEffect(() => {
+
+    getProductsData(dispatch);
+  }, []);
+
+  const handleSort = (e) => {
+    // dispatch sort products on change
+    let val=e.target.value;
+    sortProducts(prod.products,dispatch,val);
+  };
+>>>>>>> Stashed changes
   return (
     <>
       <h2>Products</h2>
@@ -26,6 +50,7 @@ export const Mobile = () => {
       <img src="https://img.gkbcdn.com/s3/bn/2205/1500x125-6271031b2b40c930d0488be9.jpg" alt="" className="img-stuck"  />
      </div>
      <div className="sortProducts">
+<<<<<<< Updated upstream
        <span className="SortP">Sort By :</span>
         <select onClick={(e)=>setSortPrice(e.target.value)}>
         <option>Sort by--</option>
@@ -44,6 +69,15 @@ export const Mobile = () => {
           <img src="https://img.gkbcdn.com/s3/b/Logo/other.jpg" alt="iphone" onClick={()=>setFilterBrand("iphone")}/>
         </div>
         
+=======
+       <span>Sort By :</span>
+        <select data-testid="product-sort-order" onChange={handleSort}>
+        <option>Sort by--</option>
+        <option value="asc" onClick={(e)=>handleSort(e)}>Low to High</option>
+        <option value="desc" onClick={(e)=>handleSort(e)}>High to Low</option>
+      </select>
+        </div>
+>>>>>>> Stashed changes
       <div className="parentProduct">
 
 
@@ -51,9 +85,15 @@ export const Mobile = () => {
 
           <div>
             <ProductTitle> Phones &amp; Accessories </ProductTitle> 
+<<<<<<< Updated upstream
             <div><input type="checkbox" value="cell" onClick={(e)=>setCategory(e.target.value) } /> <ProductSpan>Cell Phones</ProductSpan></div>
             <div><input type="checkbox"  value="accessories" onClick={(e)=>setCategory(e.target.value) }/> <ProductSpan>
              Accessories
+=======
+            <div><input type="checkbox" /> <ProductSpan>Cell Phone</ProductSpan></div>
+            <div><input type="checkbox" /> <ProductSpan>
+              Apple Accessories
+>>>>>>> Stashed changes
             </ProductSpan></div>
             <div><input type="checkbox" /> <ProductSpan>Android Accessories</ProductSpan></div>
           </div>
@@ -98,6 +138,7 @@ export const Mobile = () => {
           </div>
         </div>
         <Grid className="grid">
+<<<<<<< Updated upstream
           {item.filter((brnd) => {
             if(filterBrand === ""){
                 return brnd;
@@ -127,6 +168,9 @@ export const Mobile = () => {
     })
       .map(item => <MobileCard key={item.id} item={item} />)}
           {/* {updatedList.products.map(item => <MobileCard key={item.id} item={item} />)} */}
+=======
+          {prod.products.map(item => <MobileCard key={item.id} item={item} />)}
+>>>>>>> Stashed changes
         </Grid>
       </div>
     </>
