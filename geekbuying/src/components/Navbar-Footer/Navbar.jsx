@@ -92,8 +92,6 @@ const Navbar = () => {
         <button className="navBottomButton">Cupon</button>
 
         {bottonSelect ? <NavbarBottomSelect /> : ""}
-
-        <div>Hello</div>
       </div>
     </nav>
   );
