@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./css/navbarMid.css";
 
 const NavbarMid = () => {
@@ -12,11 +13,13 @@ const NavbarMid = () => {
 
   return (
     <div id="navMid">
-      <img
-        id="navMidLogo"
-        src="https://www.shareasale.com/images/logo2016_1.jpg"
-        alt="LOGO"
-      />
+      <Link to="/home">
+        <img
+          id="navMidLogo"
+          src="https://www.shareasale.com/images/logo2016_1.jpg"
+          alt="LOGO"
+        />
+      </Link>
 
       <button id="navMidSelectButton" onClick={handleShow} value="all">
         All Categories{" "}
@@ -44,7 +47,9 @@ const NavbarMid = () => {
           <div>
             <div value="home">Smart Home and Garden</div>
             <br></br>
-            <div value="phone">Phones & Accessories</div>
+            <Link to="/mobile">
+              <div value="phone">Phones & Accessories</div>
+            </Link>
             <br></br>
             <div value="computer">Computer, Tablet & Accessories</div>
             <br></br>

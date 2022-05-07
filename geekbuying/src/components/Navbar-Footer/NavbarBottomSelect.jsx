@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/navbarBottomSelect.css";
 
+import { Link } from "react-router-dom";
+
 const NavbarBottomSelect = () => {
   return (
     <div>
@@ -12,13 +14,15 @@ const NavbarBottomSelect = () => {
         >
           Smart Home and Garden
         </div>
-        <div
-          className="navBottomSelectHide"
-          id="navBottomSelectPhone"
-          value="phone"
-        >
-          Phones & Accessories
-        </div>
+        <Link to="/mobile">
+          <div
+            className="navBottomSelectHide"
+            id="navBottomSelectPhone"
+            value="phone"
+          >
+            Phones & Accessories
+          </div>
+        </Link>
         <div
           className="navBottomSelectHide"
           id="navBottomSelectComputer"
