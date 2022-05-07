@@ -54,8 +54,33 @@ const AboutUS = () => {
           project please contact us through our linkdin, we wold be happy to
           reply about our project.
         </div>
-        <div></div>
-        <div></div>
+
+        <div>
+          <h3>Linkdin Profiles</h3>
+          <a href="https://www.linkedin.com/in/abhinav-bisht-1012/">
+            <h4>Abhinav Bisht</h4>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ayush-kumar-12129613a/">
+            <h4>Ayush Kumar</h4>
+          </a>
+
+          <a href="https://www.linkedin.com/in/aman-dubey-65170920b/">
+            <h4>Aman Dubey</h4>
+          </a>
+          <h4>
+            Abhishek Kumar Rai<a href=""></a>
+          </h4>
+          <a href="">
+            <h4>Shaik Noorbasha</h4>
+          </a>
+          <a href="">
+            <h4>Sayyad Gul Mohammad</h4>
+          </a>
+          <a href="https://www.linkedin.com/in/abhishek-kansana-36608a233/">
+            <h4>Abhi Kansana</h4>
+          </a>
+        </div>
       </div>
     </div>
   );
