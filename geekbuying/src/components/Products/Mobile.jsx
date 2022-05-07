@@ -1,5 +1,4 @@
 import { ProductTitle,ProductSpan, Grid } from "../styled";
-<<<<<<< Updated upstream
 import React, { useEffect,useState } from "react";
 import './Product.css';
 import { MobileCard } from './MobileCard'
@@ -20,7 +19,6 @@ export const Mobile = () => {
    
   },[])
 
-=======
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import './Product.css';
@@ -42,7 +40,6 @@ const [product, sortProducts]=React.useState([])
     let val=e.target.value;
     sortProducts(prod.products,dispatch,val);
   };
->>>>>>> Stashed changes
   return (
     <>
       <h2>Products</h2>
@@ -138,7 +135,6 @@ const [product, sortProducts]=React.useState([])
           </div>
         </div>
         <Grid className="grid">
-<<<<<<< Updated upstream
           {item.filter((brnd) => {
             if(filterBrand === ""){
                 return brnd;
@@ -168,9 +164,7 @@ const [product, sortProducts]=React.useState([])
     })
       .map(item => <MobileCard key={item.id} item={item} />)}
           {/* {updatedList.products.map(item => <MobileCard key={item.id} item={item} />)} */}
-=======
           {prod.products.map(item => <MobileCard key={item.id} item={item} />)}
->>>>>>> Stashed changes
         </Grid>
       </div>
     </>
