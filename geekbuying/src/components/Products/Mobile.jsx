@@ -19,20 +19,6 @@ export const Mobile = () => {
    
   },[])
 
-const [product, sortProducts]=React.useState([])
-  const prod = useSelector((state) => state);
-
-  const dispatch = useDispatch();
-  useEffect(() => {
-
-    getProductsData(dispatch);
-  }, []);
-
-  const handleSort = (e) => {
-    // dispatch sort products on change
-    let val=e.target.value;
-    sortProducts(prod.products,dispatch,val);
-  };
   return (
     <>
       <h2>Products</h2>
@@ -40,13 +26,24 @@ const [product, sortProducts]=React.useState([])
       <img src="https://img.gkbcdn.com/s3/bn/2205/1500x125-6271031b2b40c930d0488be9.jpg" alt="" className="img-stuck"  />
      </div>
      <div className="sortProducts">
-       <span>Sort By :</span>
-        <select data-testid="product-sort-order" onChange={handleSort}>
+       <span className="SortP">Sort By :</span>
+        <select onClick={(e)=>setSortPrice(e.target.value)}>
         <option>Sort by--</option>
-        <option value="asc" onClick={(e)=>handleSort(e)}>Low to High</option>
-        <option value="desc" onClick={(e)=>handleSort(e)}>High to Low</option>
+        <option value="dsc">Low to High</option>
+        <option value="asc">High to Low</option>
       </select>
         </div>
+        <div className="filterP">
+          <img src="https://img.gkbcdn.com/s3/b/xiaomi.jpg" alt="Xiaomi" onClick={(e)=>setFilterBrand(e.target.alt) }/>
+          <img src="https://img.gkbcdn.com/s3/b/Logo/Pocophone.jpg" alt="POCO" onClick={(e)=>setFilterBrand(e.target.alt)}/>
+          <img src="https://img.gkbcdn.com/s3/b/mpow-65q6Gtkb.jpg" alt="Mpow" onClick={()=>setFilterBrand("Mpow")}/>
+          <img src="https://img.gkbcdn.com/s3/b/Logo/oneplus.jpg" alt="OnePlus" onClick={()=>setFilterBrand("OnePlus")}/>
+          <img src="https://img.gkbcdn.com/s3/b/2007/realme.jpg?v=-661689452" alt="Realme" onClick={()=>setFilterBrand("")}/>
+          <img src="https://img.gkbcdn.com/s3/b/Logo/samsung.jpg" alt="samsung" />
+          <img src="https://img.gkbcdn.com/s3/b/Logo/huawei.jpg" alt="Huawai" />
+          <img src="https://img.gkbcdn.com/s3/b/Logo/other.jpg" alt="iphone" onClick={()=>setFilterBrand("iphone")}/>
+        </div>
+        
       <div className="parentProduct">
 
 
@@ -54,9 +51,9 @@ const [product, sortProducts]=React.useState([])
 
           <div>
             <ProductTitle> Phones &amp; Accessories </ProductTitle> 
-            <div><input type="checkbox" /> <ProductSpan>Cell Phone</ProductSpan></div>
-            <div><input type="checkbox" /> <ProductSpan>
-              Apple Accessories
+            <div><input type="checkbox" value="cell" onClick={(e)=>setCategory(e.target.value) } /> <ProductSpan>Cell Phones</ProductSpan></div>
+            <div><input type="checkbox"  value="accessories" onClick={(e)=>setCategory(e.target.value) }/> <ProductSpan>
+             Accessories
             </ProductSpan></div>
             <div><input type="checkbox" /> <ProductSpan>Android Accessories</ProductSpan></div>
           </div>
@@ -130,7 +127,6 @@ const [product, sortProducts]=React.useState([])
     })
       .map(item => <MobileCard key={item.id} item={item} />)}
           {/* {updatedList.products.map(item => <MobileCard key={item.id} item={item} />)} */}
-          {prod.products.map(item => <MobileCard key={item.id} item={item} />)}
         </Grid>
       </div>
     </>

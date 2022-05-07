@@ -12,7 +12,9 @@
     margin-top:15px;
   }
   .imgProduct{
-    margin-bottom:5px;
+    height: 256px;
+    width: 266px;
+    margin: 5px 0px 3px 1px;
   }
   .sidebarProduct{
     margin: 0px 125px;
@@ -37,6 +39,19 @@
 .sortProducts{
     text-align:right;
     margin-right: 155px;
-    
+    display: inline;
+    margin: 4px 139px;
     font-size: 17px;
+}
+.filterP{
+  margin:8px;
+  text-align: center;
+  display: inline;
+  /* justify-content: center; */
+}
+.filterP>img{
+  cursor: pointer;
+  width: 78px;
+  height: 40px;
+  margin: 4px 12px;
 }
