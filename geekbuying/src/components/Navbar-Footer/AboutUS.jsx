@@ -1,62 +1,66 @@
 import React from "react";
-
+import "./css/aboutUS.css";
 const AboutUS = () => {
   return (
-    <div>
-      <div>
+    <div id="about">
+      <div id="aboutLeft">
         <div>
           <h4>Customer Service</h4>
-          <p>Service Contacts</p>
-          <p>Track My Order</p>
-          <p>Return Policy</p>
-          <p>Declaration & Tracking</p>
-          <p>Why Buy From Us</p>
-          <p>Q&A</p>
-          <p>FAQs about COVID-19</p>
+          <div>Service Contacts</div>
+          <div>Track My Order</div>
+          <div>Return Policy</div>
+          <div>Declaration & Tracking</div>
+          <div>Why Buy From Us</div>
+          <div>Q&A</div>
+          <div>FAQs about COVID-19</div>
         </div>
 
         <div>
           <h4>Product Quality</h4>
-          <p>Product Sources</p>
-          <p>Product Quality Control</p>
-          <p>Xiaomi and Mi-brand</p>
+          <div>Product Sources</div>
+          <div>Product Quality Control</div>
+          <div>Xiaomi and Mi-brand</div>
         </div>
 
         <div>
           <h4>Payment & Shipping</h4>
-          <p>Payment Methods</p>
-          <p>Shipping Guide</p>
-          <p>Taxes, Customs & Duties</p>
-          <p>Verification Procedure</p>
+          <div>Payment Methods</div>
+          <div>Shipping Guide</div>
+          <div>Taxes, Customs & Duties</div>
+          <div>Verification Procedure</div>
         </div>
 
         <div>
           <h4>Other Business</h4>
-          <p>Wholesale</p>
-          <p>Affiliate Program</p>
-          <p>Request a Sample</p>
+          <div>Wholesale</div>
+          <div>Affiliate Program</div>
+          <div>Request a Sample</div>
         </div>
 
         <div>
           <h4>About Geekbuying.com</h4>
-          <p>About Us</p>
-          <p>Our Guarantee</p>
-          <p>Terms of Use</p>
-          <p>Privacy Policy</p>
-          <p>Sitemap</p>
+          <div>About Us</div>
+          <div>Our Guarantee</div>
+          <div>Terms of Use</div>
+          <div>Privacy Policy</div>
+          <div>Sitemap</div>
         </div>
       </div>
 
-      <div>
+      <div id="aboutRight">
+        <h2>ABOUT US</h2>
         <div>
-          We are a group of students, who were given a project to clone
-          https://www.geekbuying.com/. If you have a query related to our
-          project please contact us through our linkdin, we wold be happy to
-          reply about our project.
+          We are a group of students, who were given a project to clone :
+          <a href="https://www.geekbuying.com">https://www.geekbuying.com</a>.
+          If you have a query related to our project please contact us through
+          our linkedin, we wold be happy to reply about our project.
         </div>
 
+        <br />
+        <br />
+
         <div>
-          <h3>Linkdin Profiles</h3>
+          <h3>Linkedin Profiles</h3>
           <a href="https://www.linkedin.com/in/abhinav-bisht-1012/">
             <h4>Abhinav Bisht</h4>
           </a>
@@ -68,9 +72,9 @@ const AboutUS = () => {
           <a href="https://www.linkedin.com/in/aman-dubey-65170920b/">
             <h4>Aman Dubey</h4>
           </a>
-          <h4>
-            Abhishek Kumar Rai<a href=""></a>
-          </h4>
+          <a href="">
+            <h4>Abhishek Kumar Rai</h4>
+          </a>
           <a href="">
             <h4>Shaik Noorbasha</h4>
           </a>
