@@ -1,10 +1,23 @@
 import { ProductTitle,ProductSpan, Grid } from "../styled";
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect,useState } from "react";
 import './Product.css';
 import { MobileCard } from './MobileCard'
-import { getProductsData } from '../../redux/actions'
+// import {products} from '.../'
 export const Mobile = () => {
+  const[sortPrice, setSortPrice]= useState("")
+  const[category, setCategory]= useState("")
+  const [filterBrand, setFilterBrand] = useState("");
+  const[item,setItem]=useState([])
+  useEffect(()=>{
+    const getItem=async() =>{
+     let response = await fetch("http://localhost:8080/products")
+     let data = await response.json()
+    //  console.log(data)
+     setItem(data)
+    }
+    getItem()
+   
+  },[])
 
 const [product, sortProducts]=React.useState([])
   const prod = useSelector((state) => state);
@@ -88,6 +101,35 @@ const [product, sortProducts]=React.useState([])
           </div>
         </div>
         <Grid className="grid">
+          {item.filter((brnd) => {
+            if(filterBrand === ""){
+                return brnd;
+            }
+            else{
+                return brnd.brand=== filterBrand;
+            }
+        })
+        .sort((a,b) => {
+          if(sortPrice === "dsc"){
+              return a.price-b.price;
+          }
+          else if(sortPrice === "asc"){
+              return b.price-a.price
+          }
+          else{
+              return 0;
+          }
+      })
+      .filter((cat) => {
+        if(category === ""){
+            return cat;
+        }
+        else{
+            return cat.category=== category;
+        }
+    })
+      .map(item => <MobileCard key={item.id} item={item} />)}
+          {/* {updatedList.products.map(item => <MobileCard key={item.id} item={item} />)} */}
           {prod.products.map(item => <MobileCard key={item.id} item={item} />)}
         </Grid>
       </div>
