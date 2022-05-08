@@ -91,12 +91,12 @@ const NavbarMid = () => {
 
         <Link to="/cart">
           <button>
-          <img src="https://i.ibb.co/k4H1jZq/shopping-cart.png" />
-          Cart
-          <span className="bag-quantity">
-            <span>5</span>
-        </span>
-        </button>
+            <img src="https://i.ibb.co/k4H1jZq/shopping-cart.png" />
+            Cart
+            <span className="bag-quantity">
+              <span>5</span>
+            </span>
+          </button>
         </Link>
       </div>
     </div>

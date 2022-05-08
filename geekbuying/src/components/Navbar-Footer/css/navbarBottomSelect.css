@@ -1,11 +1,11 @@
 #navBottomSelect {
   position: relative;
   top: 2.62rem;
-  left: -35rem;
+  left: -54rem;
 
   background-color: white;
   border: 1px solid lightgray;
-  height: 16rem;
+  height: 17rem;
   width: 15rem;
   padding: 10px 15px;
   padding-right: 0;
@@ -20,8 +20,8 @@
 }
 #navBottomSelectHomeDiv {
   position: relative;
-  top: -14.8rem;
-  left: -19.9rem;
+  top: -14.5rem;
+  left: -39.5rem;
 
   border: 1px solid lightgray;
   background-color: white;
