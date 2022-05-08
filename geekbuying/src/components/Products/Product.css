@@ -55,3 +55,13 @@
   height: 40px;
   margin: 4px 12px;
 }
+.aLinkM{
+  text-decoration: none;
+  color: black;
+}
+.ratingP{
+  color: rgb(236, 236, 24);
+  margin:0px 35px ;
+  /* margin-top:15px; */
+  font-size:25px;
+}

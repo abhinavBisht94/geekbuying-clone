@@ -8,6 +8,7 @@ export const Mobile = () => {
   const[category, setCategory]= useState("")
   const [filterBrand, setFilterBrand] = useState("");
   const[item,setItem]=useState([])
+  const[filterRating,setFilterRating]=useState("")
   useEffect(()=>{
     const getItem=async() =>{
      let response = await fetch("http://localhost:8080/products")
@@ -21,17 +22,24 @@ export const Mobile = () => {
 
   return (
     <>
-      <h2>Products</h2>
      <div className="img-out" >
       <img src="https://img.gkbcdn.com/s3/bn/2205/1500x125-6271031b2b40c930d0488be9.jpg" alt="" className="img-stuck"  />
      </div>
      <div className="sortProducts">
-       <span className="SortP">Sort By :</span>
+       <span className="SortP">Sort by:</span>
         <select onClick={(e)=>setSortPrice(e.target.value)}>
-        <option>Sort by--</option>
+        <option>price</option>
         <option value="dsc">Low to High</option>
         <option value="asc">High to Low</option>
       </select>
+      <select onChange={(e)=> setFilterRating(e.target.value)}>
+          <option value="">Rating</option>
+          <option>★★★★★</option>
+          <option>★★★★</option>
+          <option>★★★</option>
+          <option>★★</option>
+          <option>★</option>
+        </select>
         </div>
         <div className="filterP">
           <img src="https://img.gkbcdn.com/s3/b/xiaomi.jpg" alt="Xiaomi" onClick={(e)=>setFilterBrand(e.target.alt) }/>
@@ -55,7 +63,7 @@ export const Mobile = () => {
             <div><input type="checkbox"  value="accessories" onClick={(e)=>setCategory(e.target.value) }/> <ProductSpan>
              Accessories
             </ProductSpan></div>
-            <div><input type="checkbox" /> <ProductSpan>Android Accessories</ProductSpan></div>
+            <div><input type="checkbox" value="" onClick={(e)=>setCategory(e.target.value) }/> <ProductSpan>Android Accessories</ProductSpan></div>
           </div>
 
           <div>
@@ -118,13 +126,21 @@ export const Mobile = () => {
           }
       })
       .filter((cat) => {
-        if(category === ""){
+        if(category === ""||category===null){
             return cat;
         }
         else{
             return cat.category=== category;
         }
     })
+    .filter((rtng)=>{
+      if(filterRating===""){
+          return rtng;
+      }
+      else{
+          return rtng.rating===filterRating;
+      }
+  })
       .map(item => <MobileCard key={item.id} item={item} />)}
           {/* {updatedList.products.map(item => <MobileCard key={item.id} item={item} />)} */}
         </Grid>
