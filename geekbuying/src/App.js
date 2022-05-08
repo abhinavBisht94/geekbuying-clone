@@ -16,6 +16,7 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/aboutUS" element={<AboutUS />} />
         <Route path="/mobile" element={<Mobile />} />
+        
 
         {/* Default page */}
         <Route path="" element={<Navigate to="home" />} />
