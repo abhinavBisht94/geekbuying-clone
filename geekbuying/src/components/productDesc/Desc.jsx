@@ -15,19 +15,6 @@ function Desc() {
         qty:0,
     }
 
-    // const obj = {
-    //     image:"https://images.unsplash.com/photo-1533228100845-08145b01de14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    //     title:"Xiaomi Redmi 9A CN Version 4G LTE Smartphone 6.53 Inch HD DotDrop Screen MediaTek Helio G25 4GB RAM 64GB ROM MIUI 12 13MP AI Rear Camera 5000mAh Battery Dual SIM Dual Standby - Green",
-    //     brand:"Redmi",
-    //     itemCode:"467336",
-    //     offerPrice:11006.43,
-    //     price:12578.89,
-    //     shipFrom:"Nepal",
-    //     off:"13%",
-    //     qty:0,
-
-    // }
-  
     const unfilledLike = "https://cdn-icons-png.flaticon.com/128/535/535285.png"
     const filledLike = "https://cdn-icons-png.flaticon.com/128/7299/7299756.png"
 
