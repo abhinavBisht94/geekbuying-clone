@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProductInfo} from '../styled'
+import {ProductInfo,MobLink} from '../styled'
 import {Link} from 'react-router-dom'
 export const MobileCard = (item) => {
     console.log(item.item.price)
@@ -8,10 +8,10 @@ export const MobileCard = (item) => {
           <div key={item.id} className="gridC">
             {/* display item info here  */}
             <img src={item.item.image_url} alt="product" className="imgProduct"/>
-            <Link to='/mobileDetail' className="aLinkM"><ProductInfo>{item.item.name} </ProductInfo> </Link>
+            <MobLink to='/mobileDetail' className="aMobLinkM"><ProductInfo>{item.item.name} </ProductInfo> </MobLink>
             <ProductInfo>{item.item.brand}</ProductInfo>
             <h3 className="priceProduct">Rs. {item.item.price}</h3> <span className="strikedoffprice">{item.item.strikedoffprice}</span>
-            <p className="ratingP">{item.item.rating}</p>
+            <p className="ratingP">{item.item.rating} <span className="rand">{Math.floor(Math.random() * (18 - 5 + 1)) + 5}</span></p>
           </div>
         </>
       );

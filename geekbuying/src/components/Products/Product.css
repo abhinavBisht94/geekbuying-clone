@@ -17,7 +17,7 @@
     margin: 5px 0px 3px 1px;
   }
   .sidebarProduct{
-    margin: 0px 125px;
+    margin: 30px 125px;
     border: 1px solid #eee;
     padding: 10px 14px 34px 14px;
     height: 700px;
@@ -29,6 +29,7 @@
     text-align: center;
   }
 .img-stuck{
+  margin-top: 20px;
     width:83%;
 }
 
@@ -37,11 +38,14 @@
 
 }
 .sortProducts{
-    text-align:right;
-    margin-right: 155px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 14px;
+  color: #333;
+  font-weight: 700;
     display: inline;
     margin: 4px 139px;
-    font-size: 17px;
+    
 }
 .filterP{
   margin:8px;
@@ -55,13 +59,14 @@
   height: 40px;
   margin: 4px 12px;
 }
-.aLinkM{
-  text-decoration: none;
-  color: black;
-}
+
 .ratingP{
-  color: rgb(236, 236, 24);
+  font-size: 20px;
+  color: rgb(245 144 22);;
   margin:0px 35px ;
-  /* margin-top:15px; */
-  font-size:25px;
+}
+.rand{
+
+  font-size: 14px;
+  color: rgb(145, 142, 142);
 }

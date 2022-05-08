@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
+
 export const ProductTitle=styled.div`
 color:blue;
 font-size: 16px;
@@ -23,10 +25,14 @@ gap: 15px;
 grid-template-columns:repeat(3,1fr);
 border-top:1px solid transparent;
 padding-top: 26px;
-padding-bottom:10px;
+padding-bottom:20px;
 `
 export const filterP=styled.button`
 background-color: black;
 margin:8px 629px;
 color:blue;
+`
+export const MobLink=styled(Link)`
+text-decoration: none;
+color:black;
 `
