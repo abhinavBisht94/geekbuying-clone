@@ -1,6 +1,7 @@
 {
- "products": [
+     "products": [
           {
+               "rating": "★★",
                "id": 1,
                "image_url": "https://img.gkbcdn.com/p/2021-11-12/xiaomi-redmi-note-11-5g-smartphone-8gb-256gb-black-1636705048083._w280_p1_.jpg",
                "name": "Xiaomi Redmi Note Ver. 5G Smartphone",
@@ -10,6 +11,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★",
                "id": 2,
                "image_url": "https://img.gkbcdn.com/p/2021-12-30/xiaomi-mi-12-6-28--5g-smartphone-snapdragon-8-8gb-128gb-black-6a24bb-1640827752278._w280_p1_.jpg",
                "name": "Xiaomi Mi 12 Ver5G Smartphone 6.28 inch",
@@ -19,6 +21,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 3,
                "image_url": "https://img.gkbcdn.com/p/2020-08-03/Xiaomi-Redmi-9A-6-53--MTK-Helio-G25-Smartphone-4GB-64GB-Blue-425886-0._w280_p1_.jpg",
                "name": "Xiaomi Redmi 9A  Ver. 4G LTE SmartPhone",
@@ -28,6 +31,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★",
                "id": 4,
                "image_url": "https://img.gkbcdn.com/p/2020-08-03/Xiaomi-Redmi-9A-6-53--MTK-Helio-G25-Smartphone-4GB-64GB-Green-425885-0._w280_p1_.jpg",
                "name": "Xiaomi Redmi 9A  4G LTE SmartPhone",
@@ -37,6 +41,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 5,
                "image_url": "https://img.gkbcdn.com/p/2022-01-05/Realme-GT2-Pro-6-7-Inches-Snapdragon-8-8GB-256GB-Green-492530-0._w280_p1_.jpg",
                "name": "Realme GT2 Pro CN Version 5G Smrtphone",
@@ -46,6 +51,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 6,
                "image_url": "https://img.gkbcdn.com/p/2019-04-03/estrella-class10-micro-sd-memory-card-tf-for-phones-tablet-32g-1571984039891._w280_p1_.jpg",
                "name": "ESTRELLA Class 10 SDHC 32GB SD Card",
@@ -55,6 +61,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★★★",
                "id": 7,
                "image_url": "https://img.gkbcdn.com/p/2022-01-05/Realme-GT2-Pro-6-7-Inches-Snapdragon-8-8GB-256GB-White-492529-0._w280_p1_.jpg",
                "name": "Realme GT20 Pro CN Version 5G Smartphone",
@@ -64,6 +71,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 8,
                "image_url": "https://img.gkbcdn.com/p/2021-11-26/Wireless-car-charger--Qi-car-charger--15-W---10-W---7-5-W--auto-clamp-479546-1._w280_p1_.jpg",
                "name": "Mpow Wireless QI Car Charger 15W/10W ",
@@ -73,6 +81,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★",
                "id": 9,
                "image_url": "https://img.gkbcdn.com/p/2012-06-11/composite-av-cable-for-iphone-4-4s-3g-3gs-white-1571982393974._w280_p1_.jpg",
                "name": "Brand New Composite Cable for iphone",
@@ -82,6 +91,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★",
                "id": 10,
                "image_url": "https://img.gkbcdn.com/p/2021-11-17/Global-Version-POCO-M3-Pro-478594-0._w280_p1_.jpg",
                "name": "POCO M3 Pro GLobal Version 5G Smartphone",
@@ -91,6 +101,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★",
                "id": 11,
                "image_url": "https://img.gkbcdn.com/p/2014-04-14/qi-standard-wireless-charging-receiver-pad-for-samsung-galaxy-s5-i9600---blue-1571981666408._w280_p1_.jpg",
                "name": "Qi Standard Wireless Reciver Pad for Samsung",
@@ -100,6 +111,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★★★",
                "id": 12,
                "image_url": "https://img.gkbcdn.com/p/2021-03-24/GaN-P60-GaN-65W-USB-C-Charger-457225-1._w280_p1_.jpg",
                "name": "Gan-P60 GaN 65W USB c Charger",
@@ -109,6 +121,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★",
                "id": 13,
                "image_url": "https://img.gkbcdn.com/p/2020-08-03/Xiaomi-Redmi-9A-6-53--MTK-Helio-G25-Smartphone-4GB-64GB-Black-425888-0._w280_p1_.jpg",
                "name": "Xiaomi Redmi 9A Version 4G LTE SmartPhone",
@@ -118,15 +131,17 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★★",
                "id": 14,
                "image_url": "https://img.gkbcdn.com/p/2017-05-12/red-pofan-po7-usb-to-lightning-data-cable-1572249005688._w280_p1_.jpg",
                "name": "Red Pofan Po7 USB to 8 Pin Data Cable",
                "price": 548.87,
                "strikedoffprice": 12.75,
                "brand": "POCO",
-               "category":"accessories"
+               "category": "accessories"
           },
           {
+               "rating": "★★★★★★",
                "id": 15,
                "image_url": "https://img.gkbcdn.com/p/2021-11-26/Wireless-Charger--3-in-1-Wireless-Charging-Station-for-All-iWatch-479548-0._w280_p1_.jpg",
                "name": "Senso 3-in-1 Magnetic Wireless Charger",
@@ -136,6 +151,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★★",
                "id": 16,
                "image_url": "https://img.gkbcdn.com/p/2021-11-17/OnePlus-7T-478580-0._w280_p1_.jpg",
                "name": "OnePlus 7T Global Version 4G LTE Smartphone",
@@ -145,6 +161,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 17,
                "image_url": "https://img.gkbcdn.com/p/2018-11-02/original-adidas-tpu-case-iphone-7-street-corner-art-1571986798031._w280_p1_.jpg",
                "name": "Original adidas YPU case iphone 7",
@@ -154,6 +171,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★★★★★",
                "id": 18,
                "image_url": "https://img.gkbcdn.com/p/2020-04-17/Global-ROM-OnePlus-8-6-55-Inch-5G-Smartphone-12GB-256GB-Onyx-Black-901961-._w280_p1_.jpg",
                "name": "OnePlus 7T Global Version 4G LTE Smartphone",
@@ -163,6 +181,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★★",
                "id": 19,
                "image_url": "https://img.gkbcdn.com/p/2019-05-10/protective-film-for-oneplus-7-transparent-1571983526857._w280_p1_.jpg",
                "name": " Tempered Glass Protective Film for OnePLus 7",
@@ -171,6 +190,7 @@
                "category": "accessories"
           },
           {
+               "rating": "★★★★★★",
                "id": 20,
                "image_url": "https://img.gkbcdn.com/p/2020-04-17/Global-ROM-OnePlus-8-6-55-Inch-5G-Smartphone-12GB-256GB-Glacial-Green-901946-._w280_p1_.jpg",
                "name": "OnePlus6. 8.6.55 Inch Screen 5G Smartphone",
@@ -180,6 +200,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 21,
                "image_url": "https://img.gkbcdn.com/p/2021-09-18/xiaomi-redmi-k40-gaming-edition-global-rom-6-67--8gb-256gb-black--1631946889460._w280_p1_.jpg",
                "name": "Xiaomi Redmi K40 Gaming Edition Global",
@@ -189,6 +210,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 22,
                "image_url": "https://img.gkbcdn.com/p/2021-11-12/xiaomi-redmi-note-11-5g-smartphone-6gb-128gb-white-1636706884522._w280_p1_.jpg",
                "name": "Xiaomi Redmi Note Ver 5G Smartphone",
@@ -198,6 +220,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 23,
                "image_url": "https://img.gkbcdn.com/p/2021-12-20/oppo-r11s-6-01-inch-4gb-64gb-smartphone-red-721452-1640003614062._w280_p1_.jpg",
                "name": "OPPO Find N Foldable Flagship Smartphone",
@@ -207,6 +230,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★",
                "id": 24,
                "image_url": "https://img.gkbcdn.com/p/2022-01-05/Realme-GT2-Pro-6-7-Inches-Snapdragon-8-12GB-512GB-White-492531-0._w280_p1_.jpg",
                "name": "Realme GT2 Pro CN Version 5G Smartphone",
@@ -216,6 +240,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 25,
                "image_url": "https://img.gkbcdn.com/p/2022-01-06/realme-gt-neo-2-cn-version-5g-6-62-inch-8gb-256gb-black-04be87-1641458077419._w280_p1_.jpg",
                "name": "Realme GT Neo 2 CN Version 5G Smartphone",
@@ -225,6 +250,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 26,
                "image_url": "https://img.gkbcdn.com/p/2021-05-05/xiaomi-redmi-k40-gaming-edition-cn-version-6-67--12gb-256gb-black-1620200155689._w280_p1_.jpg",
                "name": "Xiaomi Redmi K40 Gaming Edition",
@@ -234,6 +260,7 @@
                "category": "cell"
           },
           {
+               "rating": "★★★★★",
                "id": 27,
                "image_url": "https://img.gkbcdn.com/p/2021-05-26/xiaomi-mi-10-lite-6-57-inch-5g-smartphone-6gb-128gb-white-1622024146529._w280_p1_.jpg",
                "name": "Redmi Note 10 Pro CN Version 6.6 Inch",
