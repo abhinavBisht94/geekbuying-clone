@@ -7,7 +7,7 @@ import axios from 'axios'
 function Desc() {
 
   const{id} = useParams()
-  console.log(id)
+
 
   const[data,setdata] = useState({})
 
@@ -19,7 +19,7 @@ function Desc() {
    
   },[])
 
-   console.log(data)
+
 
     const obj = {
         image:"https://img.gkbcdn.com/s3/p/2022-03-10/SENBONO-MAX2-Smartwatch-for-Men-Brwon-Leather-497706-0.jpg",
@@ -66,7 +66,6 @@ function Desc() {
 
     function randomOff(){
             let off = Math.floor(Math.random()*10)+10
-            // console.log(off)
             let offNew = off + "%"
             return offNew
     }
