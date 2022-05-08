@@ -1,6 +1,7 @@
 import React from 'react'
 import {ProductInfo,MobLink} from '../styled'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+
 export const MobileCard = (item) => {
    const mainID = item.item.id
   //  console.log(item.item.id)
@@ -17,6 +18,7 @@ export const MobileCard = (item) => {
             <p className="ratingP">{item.item.rating} <span className="rand">{Math.floor(Math.random() * (18 - 5 + 1)) + 5}</span></p>
           </div>
           </Link>
+         
         </>
       );
 }
