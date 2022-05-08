@@ -1,8 +1,44 @@
 import React from 'react'
 
-import { useState,useEffect } from 'react'
+
+import { useState,useEffect,useRef } from 'react'
+
+const images = [
+    "https://img.gkbcdn.com/s3/bn/2205/1090x422-6274f0ca2b40c938fc33ef3d.jpg",
+    "https://img.gkbcdn.com/s3/bn/2205/1090x422-627102d02b40c930d0c34570.jpg",
+    "https://img.gkbcdn.com/s3/bn/2205/1090x422-627095d62b40c92fe444d3aa.jpg",
+    "https://img.gkbcdn.com/s3/bn/2205/1090x422-627097f82b40c92fe444d3ac.jpg",
+    "https://img.gkbcdn.com/s3/bn/2204/1090x4221-626bc0cc2b40c92588165461.jpg",
+    "https://img.gkbcdn.com/s3/bn/2204/1090x422-62593b442b40c918c04b0691.jpg"
+    
+  ];
+  
 export const Home = () => {
- 
+    const [imgInd, setImgInd] = useState(0);
+    const timeoutRef = useRef(null);
+  
+    function resetTimeout() {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    }
+  
+    useEffect(() => {
+      resetTimeout();
+      timeoutRef.current = setTimeout(
+        () => setImgInd((prevIndex) => (prevIndex + 1) % images.length),
+        2000
+      );
+  
+      return () => {
+        resetTimeout();
+      };
+    }, [imgInd]);
+
+
+  
+
+
     const [state, setstate] = useState()
  var countDownDate = new Date("May 10, 2022 23:00:00").getTime();
 
@@ -120,12 +156,24 @@ var x = setInterval(function() {
     setcounter3(true)
   
   }
-   
+const onclick=()=>{
+    console.log("asd")
+}
   return (
 
-    <div style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
+    <div className="main"style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
       <div className='reddiv'>
-        <div className='slideshow'></div>
+        <div className='slideshow'>
+        <img src={images[imgInd]} alt={imgInd} />
+      <div className="slider">
+        {images.map((_, ind) => (
+          <div
+            onClick={() => setImgInd(ind)}
+            className={imgInd === ind ? "active" : ""}
+          />
+        ))}
+      </div>
+        </div>
         <div className='side-div'>
             <div className='div1'>
                 <img  src="https://img.gkbcdn.com/s3/bn/2205/424040350160-626f35a32b40c9339cabd74a.jpg" alt="" />
@@ -778,6 +826,7 @@ var x = setInterval(function() {
             </div>
             </div>
           </div>
+          {/* <button style={{marginLeft:"93%",position:"relative"}} onClick={onclick} >dfghjk</button> */}
       </div>
      
      
