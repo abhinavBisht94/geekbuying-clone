@@ -1,12 +1,9 @@
 
 *{
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box; 
     font-family: 'Roboto Slab', serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
+
 }
 
 button,.pointer{
@@ -34,7 +31,10 @@ button,.pointer{
 }
 
 .mainImgBox img{
-    width: 100%;
+     width: 100%;
+    /* object-fit: cover; */ 
+    /* width: 350px; */
+    height: auto;
 }
 
 .forSpans span{
@@ -67,7 +67,7 @@ button,.pointer{
 .forSpans span{
      font-size: 15px;
      color: #333333;
-     font-weight: bold;
+     font-weight: 500;
 }
 
 .forSpans span span{
@@ -116,7 +116,7 @@ button,.pointer{
 
 .label{
     color: #999;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 15px;
     width: 140px;
 }
