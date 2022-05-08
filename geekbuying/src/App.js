@@ -5,6 +5,7 @@ import AboutUS from "./components/Navbar-Footer/AboutUS";
 import { Home } from "./components/home/Home";
 import { Mobile } from "./components/Products/Mobile";
 import {Cart} from './components/CartPage/Cart';
+import Desc from './components/productDesc/Desc'
 
 
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/aboutUS" element={<AboutUS />} />
         <Route path="/mobile" element={<Mobile />} />
+        <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
 
         {/* Default page */}
