@@ -249,19 +249,37 @@ del {
   height: 85%;
   flex-wrap: nowrap;
   display: flex;
-
+  /* position: relative; */
   overflow: hidden;
   gap: 10px;
-  /* margin: auto; */
+  
 }
+.prev{
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  margin-top:50px;
+  left: 100;
+}
+.next{
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  margin-top:50px;
+  margin-left:1030px;
+  left: 100;
+  transform: rotate(180deg);
+}
+/* .five-div-title-images:hover{
+
+} */
 .five-div-title-images {
   background-color: rgb(255, 255, 255);
- 
+ /* position: relative; */
   height: 92%;
   cursor: pointer;
   /* border: 2px solid black; */
   /* border-width:5px; */
   padding: 10px;
+  /* margin-left: -30%; */
 
   /* border: 1px solid; */
   /* box-shadow: 1px 1px 1px 1px #eeeded; */
@@ -335,7 +353,7 @@ del {
     background-color: rgb(255, 255, 255);
     display: flex;
     gap:10px;
-    margin-left: 10px;
+    
   }
   .six-div-title-image {
     background-color: rgb(255, 255, 255);
@@ -571,3 +589,4 @@ text-align: center;
         
           /* position: relative; */
         }
+        

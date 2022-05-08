@@ -1,14 +1,15 @@
 import React from 'react'
-import { Counter } from './counter'
+
 import { useState,useEffect } from 'react'
 export const Home = () => {
  
     const [state, setstate] = useState()
- var countDownDate = new Date("may 9, 2022 15:37:25").getTime();
+ var countDownDate = new Date("May 10, 2022 23:00:00").getTime();
 
 
 var x = setInterval(function() {
   var now = new Date().getTime();
+  
  var distance = countDownDate - now;
  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -23,10 +24,105 @@ var x = setInterval(function() {
       setstate("EXPIRED");
     }
   }, 1000);
+  const[counter,setcounter]=useState(true)
 
+  const prev=()=>{
+  
+    // console.log(count);
+    if(counter==true&& document.getElementsByClassName("five-div-title-images").length!=0)
+    {
+        setcounter(false)
+        document.getElementsByClassName("five-div-title-images")[0].style.marginLeft="-30%"
+        document.getElementsByClassName("five-div-title-images")[0].style.transition="2s"
+    }
+    console.log("prev",counter)
+   
+    
+  }
+  const next=()=>{
+ 
+  
+   
+   
+    if(counter==false&& document.getElementsByClassName("five-div-title-images").length!=0)
+    {
+        document.getElementsByClassName("five-div-title-images")[0].style.marginLeft="0"
+        
+        document.getElementsByClassName("five-div-title-images")[0].style.transition="2s"
+    }
+    setcounter(true)
+    console.log("next",counter)
+  }
+  
+  const[counter1,setcounter1]=useState(true)
 
+  const prev1=()=>{
+  
+  
+    if(counter1==true&& document.getElementsByClassName("six-div-title-images").length!=0)
+    {
+        setcounter1(false)
+        document.getElementsByClassName("six-div-title-images")[0].style.marginLeft="-30%"
+        document.getElementsByClassName("six-div-title-images")[0].style.transition="2s"
+    }
+ }
+  const next1=()=>{
+ if(counter1==false&& document.getElementsByClassName("six-div-title-images").length!=0)
+    {
+        document.getElementsByClassName("six-div-title-images")[0].style.marginLeft="0"
+        
+        document.getElementsByClassName("six-div-title-images")[0].style.transition="2s"
+    }
+    setcounter1(true)
+  
+  }
+  const[counter2,setcounter2]=useState(true)
+
+  const prev2=()=>{
+  
+  
+    if(counter2==true&& document.getElementsByClassName("seven-div-title-images").length!=0)
+    {
+        setcounter2(false)
+        document.getElementsByClassName("seven-div-title-images")[0].style.marginLeft="-30%"
+        document.getElementsByClassName("seven-div-title-images")[0].style.transition="2s"
+    }
+ }
+  const next2=()=>{
+ if(counter2==false&& document.getElementsByClassName("seven-div-title-images").length!=0)
+    {
+        document.getElementsByClassName("seven-div-title-images")[0].style.marginLeft="0"
+        
+        document.getElementsByClassName("seven-div-title-images")[0].style.transition="2s"
+    }
+    setcounter2(true)
+  
+  }
+  const[counter3,setcounter3]=useState(true)
+
+  const prev3=()=>{
+  
+  
+    if(counter3==true&& document.getElementsByClassName("eight-div-title-images").length!=0)
+    {
+        setcounter2(false)
+        document.getElementsByClassName("eight-div-title-images")[0].style.marginLeft="-30%"
+        document.getElementsByClassName("eight-div-title-images")[0].style.transition="2s"
+    }
+ }
+  const next3=()=>{
+ if(counter2==false&& document.getElementsByClassName("eight-div-title-images").length!=0)
+    {
+        document.getElementsByClassName("eight-div-title-images")[0].style.marginLeft="0"
+        
+        document.getElementsByClassName("eight-div-title-images")[0].style.transition="2s"
+    }
+    setcounter3(true)
+  
+  }
    
   return (
+
     <div style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
       <div className='reddiv'>
         <div className='slideshow'></div>
@@ -179,7 +275,14 @@ var x = setInterval(function() {
               <a href='' style={{textDecoration:"none", fontSize:"16px",marginTop:"10px"}}>See More</a>
           </div>
             <div className='five-div-title-image'>
+                <div className='next' style={{height:"50px"}}onClick={prev}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
+                <div className='prev' style={{height:"50px"}}onClick={next}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
             <div className='five-div-title-images'>
+               
                 <div className='five-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
                     <img src="https://img.gkbcdn.com/p/2022-04-28/Zeblaze-Stratos-2-Smartwatch-1-3---AMOLED-Display-Blue-500033-0._w280_p1_.jpg" alt="" />
@@ -286,6 +389,12 @@ var x = setInterval(function() {
               <a href='' style={{textDecoration:"none", fontSize:"16px",marginTop:"15px"}}>See More</a>
           </div>
             <div className='six-div-title-image'>
+            <div className='next' style={{height:"50px"}}onClick={prev1}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
+                <div className='prev' style={{height:"50px"}}onClick={next1}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
@@ -517,6 +626,12 @@ var x = setInterval(function() {
            
           </div>
             <div className='seven-div-title-image'>
+            <div className='next' style={{height:"50px"}}onClick={prev2}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
+                <div className='prev' style={{height:"50px"}}onClick={next2}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
             <div className='seven-div-title-images'>
                 <div className='seven-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
@@ -610,6 +725,12 @@ var x = setInterval(function() {
            
           </div>
             <div className='eight-div-title-image'>
+            <div className='next' style={{height:"50px"}}onClick={prev3}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
+                <div className='prev' style={{height:"50px"}}onClick={next3}>
+                    <img src="https://cdn-icons-png.flaticon.com/512/54/54782.png" alt="" />
+                </div>
             <div className='eight-div-title-images'>
                 <div className='eight-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
@@ -642,6 +763,14 @@ var x = setInterval(function() {
                  <div className='eight-div-title-images1'>
          
          <img src="https://img.gkbcdn.com/p/2022-04-16/tronsmart--trip-7b1e84-1650097276239._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2022-04-21/CREASEE-CS30-3D-Printer-499863-0._w280_.jpg" alt="" />
+                 </div>
+                 <div className='eight-div-title-images1'>
+         
+         <img src="https://img.gkbcdn.com/p/2022-03-28/Anycubic-Photon-Mono-4K-LCD-SLA-Printer-UV-Resin-3D-Printer-498383-0._w280_.jpg" alt="" />
                  </div>
              
             </div>
