@@ -35,6 +35,7 @@ button,.pointer{
 
 .mainImgBox img{
     width: 100%;
+    height: auto;
 }
 
 .forSpans span{
