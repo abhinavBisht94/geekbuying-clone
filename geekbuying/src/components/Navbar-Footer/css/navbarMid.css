@@ -82,3 +82,17 @@
 #navMidRightButton img {
   height: 1.5rem;
 }
+
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:25px;
+  width:25px;
+  background-color: #ff9c01;
+  border-radius:50%;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+
+}
