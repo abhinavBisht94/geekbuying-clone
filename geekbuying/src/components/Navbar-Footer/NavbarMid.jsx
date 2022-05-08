@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./css/navbarMid.css";
+import { useSelector } from "react-redux";
 
 const NavbarMid = () => {
   const [show, setShow] = useState(false);
+ 
+  //Used to reflect Cart Add Item into Bag:-
+  const carts = useSelector((state)=>state.cartreducer.carts);
 
   const handleShow = () => {
     console.log("show:", show);
@@ -94,7 +98,7 @@ const NavbarMid = () => {
             <img src="https://i.ibb.co/k4H1jZq/shopping-cart.png" />
             Cart
             <span className="bag-quantity">
-              <span>5</span>
+              <span>{carts.length}</span>
             </span>
           </button>
         </Link>

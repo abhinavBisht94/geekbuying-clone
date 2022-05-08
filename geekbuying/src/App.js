@@ -1,11 +1,14 @@
 import "./components/home/home.css";
+import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar-Footer/Navbar";
 import Footer from "./components/Navbar-Footer/Footer";
 import AboutUS from "./components/Navbar-Footer/AboutUS";
 import { Home } from "./components/home/Home";
 import { Mobile } from "./components/Products/Mobile";
 import {Cart} from './components/CartPage/Cart';
-import Desc from './components/productDesc/Desc'
+import Desc from './components/productDesc/Desc';
+import {ToastContainer} from "react-toastify";
+
 
 
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
@@ -13,6 +16,7 @@ import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <ToastContainer/>
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />

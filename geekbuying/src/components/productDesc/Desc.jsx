@@ -3,8 +3,19 @@ import './desc.css'
 import Clock from './timer'
 import {useParams} from 'react-router-dom'
 import axios from 'axios'
+import { useDispatch, useSelector } from 'react-redux';
+import { ADD } from '../../redux/actions';
 
 function Desc() {
+
+    const dispatch = useDispatch();
+    const carts = useSelector((state)=>state.cartreducer.carts);
+
+    //send function used to send items to Cart Page
+    const send = (e)=> {
+        // console.log(e)
+        dispatch(ADD(e));
+    }
 
     const{id} = useParams()
 
@@ -65,7 +76,14 @@ function Desc() {
     function handleLike(){
         setliked(prev=>!prev)
     }
+    
+//Use here localStorage to retrieve our data when page gets refreshed:-
 
+   
+
+    useEffect(()=> {
+        localStorage.setItem("cartItems", JSON.stringify(carts))
+    }, [carts])
     
 
 
@@ -118,7 +136,7 @@ function Desc() {
                     </div>
                     <div className="buttons">
                             <div className="buyNow pointer">Buy Now </div>
-                            <div className="addToCart pointer">Add to Cart </div>
+                            <div className="addToCart pointer"  onClick={()=>send(data)}>Add to Cart </div>
                             <div onClick={handleLike} className="wishList pointer">
                                 <img src={liked ? filledLike : unfilledLike} />
                                 <p className="wishTxt">
