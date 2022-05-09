@@ -8,12 +8,12 @@ export const Page2 = () => {
         first:"syed",
         last:"mohd",
         city:"seohara",
-        state:"up",
+        state:"Uttar Pradesh",
         country:"India",
         tel:"9760484562",
         postal:"246746",
-        line1:"first line",
-        line2:"second line"
+        line1:"Hindu Choudnriyan",
+        line2:"Near Electric Transformer"
       }
     ]
 
