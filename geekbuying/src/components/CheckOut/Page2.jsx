@@ -7,7 +7,7 @@ export const Page2 = () => {
       {
         first:"syed",
         last:"mohd",
-        city:"seohara",
+        city:"Agra",
         state:"Uttar Pradesh",
         country:"India",
         tel:"9760484562",
