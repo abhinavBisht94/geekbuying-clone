@@ -130,7 +130,7 @@ export const Cart = () => {
                     )}
                 </div>
               
-        
+    
 
   )
 }
