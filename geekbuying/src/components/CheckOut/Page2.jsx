@@ -21,7 +21,7 @@ export const Page2 = () => {
     <div>
     <div>
     <div className={styles.header}>
-    <img src='/geek_buying.jpg' alt={"name"}/>
+    <img className={styles.image} src='/geek_buying.jpg' alt={"name"}/>
     </div>
     <h3>Shipping Address</h3>
     <div className={styles.div1}>
