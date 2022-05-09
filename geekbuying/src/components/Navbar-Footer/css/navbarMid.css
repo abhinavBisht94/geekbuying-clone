@@ -94,4 +94,8 @@
   font-size: 1rem;
   font-weight: 700;
   color: black;
+
+  position: absolute;
+  top: 2.9rem;
+  left: 76.2rem;
 }
