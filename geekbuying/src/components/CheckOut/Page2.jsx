@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Page2.module.css';
 
 export const Page2 = () => {
@@ -52,7 +53,7 @@ export const Page2 = () => {
     <p>Shipping Cost:{0}</p>
     <br/>
     <p>Grand Total:{amount}</p>
-    <input className={styles.order} type={"button"} value={"Place Your Order"} />
+    <Link to='/checkOut'><input className={styles.order} type={"button"} value={"Place Your Order"} /></Link>
     </div>
     </div>
     </div>
