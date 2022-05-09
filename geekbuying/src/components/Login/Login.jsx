@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {Alert} from "react-bootstrap";
-import Home from './Home';
+//import Home from './Home';
+import { Link } from 'react-router-dom';
 import './Signup.css';
 import "/node_modules/bootstrap/dist/css/bootstrap.css";
 const Login = () => {
@@ -29,7 +30,7 @@ function handleLogin(e){
 }
 return (
     <div>
-        {home ? (
+       
         <form onSubmit={handleLogin}>
             <h3>Login Form</h3>
 <div className='form-group'>
@@ -46,16 +47,14 @@ return (
                  onChange={(event)=> setPasswordlog(event.target.value)} />
                 
             </div>
-            <button type="submit" className='s'>Login</button>
+            <Link to="/cart"><button type="submit" className='s'>Login</button></Link>
             {flag && (
                <Alert color ="primary" variant='danger'>
                   Please Fill Correct Info 
                </Alert> 
             )}
             </form>
-            ):(
-               <Home /> 
-            )}
+           
     </div>
   )
 }
