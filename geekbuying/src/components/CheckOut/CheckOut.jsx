@@ -22,6 +22,8 @@ export const CheckOut = () => {
       }
     }
 
+    let amount=JSON.parse(localStorage.getItem("total"));
+
   return (
     <div>
     <div className={styles.header}>
@@ -46,10 +48,10 @@ export const CheckOut = () => {
     </div>
     <div className={styles.box2}>
     <div className={styles.right_box1}>
-    <p>Order No : {0}</p>
+    <p>Order No : {25794}</p>
     <br/>
-    <p>Grand Total : {0}</p>
-    <p>Payable Amount : ₹​ {0}</p>
+    <p>Grand Total : {amount}</p>
+    <p>Payable Amount : ₹​ {amount}</p>
     <input className={styles.order} type={"button"} onClick={showMessage} value={"Pay"} />
     </div>
     </div>

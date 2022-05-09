@@ -1,6 +1,4 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import signin  from  "./components/signin";
+// import signin  from  "./components/signin";
 import { Billing } from "./components/CheckOut/Billing";
 
 // import Login from "./components/Login/Login";
@@ -32,12 +30,8 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
-<<<<<<< HEAD
         <Route path="/billing" element={<Billing/>}/>
         {/* Default page */}
-=======
-        <Route path="/login" element={<Registration/>}/> 
->>>>>>> 5c06b3c2512541d64182e36eafa07983884e32f9
         <Route path="" element={<Navigate to="home" />} />
 
       </Routes>

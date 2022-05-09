@@ -88,7 +88,7 @@ export const Billing = () => {
         setShowInsurance(false);
         setOrder(order-820);
         if(showCoupon){
-          let conce=order*.30;
+          let conce=(order)*.30;
         setCouponValue(conce);
           setOrder(order-coupon_value);
         }
@@ -96,7 +96,7 @@ export const Billing = () => {
         setShowInsurance(true);
         setOrder(order+820);
         if(showCoupon){
-          let conce=order*.30;
+          let conce=(order)*.30;
         setCouponValue(conce);
           setOrder(order-coupon_value);
         }
@@ -106,7 +106,7 @@ export const Billing = () => {
         setShowReturn(false);
         setOrder(order-520);
         if(showCoupon){
-          let conce=order*.30;
+          let conce=(order)*.30;
           setCouponValue(conce);
           setOrder(order-coupon_value);
         }
@@ -114,7 +114,7 @@ export const Billing = () => {
         setShowReturn(true);
         setOrder(order+520);
         if(showCoupon){
-          let conce=order*.30;
+          let conce=(order)*.30;
         setCouponValue(conce);
           setOrder(order-coupon_value);
         }
@@ -162,11 +162,16 @@ export const Billing = () => {
       }
 
     }
+
+    let amount=JSON.parse(localStorage.getItem("total"));
+    useEffect(()=>{
+      setOrder(order+amount);
+    },[])
     
   return  (
     <div>
     <div className={styles.header}>
-    <img src='/geek_buying.jpg' alt={fname}/>
+    <img src='/geek_buying.jpg' alt={"name"}/>
     </div>
     <h3>Shipping Address</h3>
     <div className={styles.colorBox}><p>To ensure delivery and prevent delays, please enter the valid alphabetic character.</p></div>
@@ -258,7 +263,7 @@ export const Billing = () => {
     </div>
     </div>
     <div className={styles.right_box}>
-    <p>Order Subtotal:{0}</p>
+    <p>Order Subtotal:{amount}</p>
     <p>Shipping Cost:{0}</p>
     {showInsurance && <p>Insurance : {"₹​ 820"} </p>}
     {showReturn && <p>Local Return Service : {"₹​ 520"}</p>}

@@ -36,6 +36,7 @@ export const Cart = () => {
         });
         setPrice(price);
     }
+    localStorage.setItem("total",JSON.stringify(price))
 
     useEffect(()=> {
         total();

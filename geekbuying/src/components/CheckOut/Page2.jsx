@@ -15,6 +15,8 @@ export const Page2 = () => {
         line2:"second line"
       }
     ]
+
+    let amount=JSON.parse(localStorage.getItem("total"));
   return (
     <div>
     <div>
@@ -46,10 +48,10 @@ export const Page2 = () => {
     </div>
     </div>
     <div className={styles.right_box1}>
-    <p>Order Subtotal:{0}</p>
+    <p>Order Subtotal:{amount}</p>
     <p>Shipping Cost:{0}</p>
     <br/>
-    <p>Grand Total:{0}</p>
+    <p>Grand Total:{amount}</p>
     <input className={styles.order} type={"button"} value={"Place Your Order"} />
     </div>
     </div>
