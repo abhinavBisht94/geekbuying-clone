@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCheckSquare, faCoffee,faCircleExclamation } from '@fortawesome/free-solid-svg-icons'
 import { CheckOut } from './CheckOut';
-import { Page2 } from './Page2';
+// import { Page2 } from './Page2';
+import { Link } from 'react-router-dom';
 library.add( faCheckSquare, faCoffee,faCircleExclamation);
 
 
@@ -30,7 +31,6 @@ export const Billing = () => {
   const[order,setOrder]=React.useState(0);
   const[showCoupon,setShowCoupon]=React.useState(false);
   const[coupon_value,setCouponValue]=React.useState(0);
-
 
 
   useEffect(()=>{
@@ -143,6 +143,9 @@ export const Billing = () => {
       }
       console.log(payload);
       setShippingAddress([...shippingAddress,payload]);
+      let value=shippingAddress;
+      console.log(value);
+      localStorage.setItem("shippingAddress",JSON.stringify(value));
     }
 
 
@@ -219,14 +222,16 @@ export const Billing = () => {
    </table>
    </form>
     <div className={styles.button}>
-    <button className={styles.save} onClick={HandleSave} >Save</button>
+    <Link to='/page2'><button className={styles.save} onClick={HandleSave} >Save</button></Link>
     <button className={styles.cancel} onClick={handleCancel}> Cancel</button>
     </div>
     
     </div>
     <div className='box2' >
     <h3>Product List</h3>
-    <div></div>
+    <div>
+
+    </div>
     </div>
     <h3>Shipping & Delivery</h3>
     <div className={styles.box3} >
@@ -273,8 +278,6 @@ export const Billing = () => {
     <input className={styles.order} type={"button"} value={"Place Your Order"} />
     </div>
     </div>
-    <Page2/>
-    <CheckOut/>
     </div>
   )
 }

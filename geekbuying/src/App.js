@@ -13,7 +13,8 @@ import {Cart} from './components/CartPage/Cart';
 import Desc from './components/productDesc/Desc';
 import {ToastContainer} from "react-toastify";
 import Navbar from "./components/Navbar-Footer/Navbar"
-
+import{ Page2} from './components/CheckOut/Page2';
+import { CheckOut } from "./components/CheckOut/CheckOut";
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
  
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
         <Route path="/billing" element={<Billing/>}/>
+        <Route path="/page2" element={<Page2/>}/>
+        <Route path="/checkOut" element={<CheckOut/>}/>
         {/* Default page */}
         <Route path="" element={<Navigate to="home" />} />
 
