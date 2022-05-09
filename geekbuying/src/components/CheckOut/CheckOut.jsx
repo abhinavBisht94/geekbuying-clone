@@ -14,7 +14,7 @@ export const CheckOut = () => {
   const handleChange = (e) => {
     setShowCredit(false);
   };
-  // const Navigate= useNavigate();
+  const navigate= useNavigate();
 
   const showMessage = () => {
     if (card === "123456789" && month === "01/24" && cvv === "257") {
@@ -23,7 +23,8 @@ export const CheckOut = () => {
       alert("Invalid Credentials");
     }
     setTimeout(() => {
-      <Navigate to="home" />;
+      // <Navigate to="home" />;
+        navigate("/home")
     }, 1000);
   };
 
