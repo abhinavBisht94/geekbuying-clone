@@ -34,7 +34,7 @@ function App() {
         <Route path="/billing" element={<Billing/>}/>
         <Route path="/page2" element={<Page2/>}/>
         <Route path="/checkOut" element={<CheckOut/>}/>
-        
+        <Route path="login"  element={<Registration/>}/>
         {/* Default page */}
         <Route path="" element={<Navigate to="home" />} />
 
