@@ -1,6 +1,5 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import signin  from  "./components/signin";
+
+// import signin  from  "./components/signin";
 import "./components/home/home.css";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar-Footer/Navbar";
@@ -12,8 +11,6 @@ import {Cart} from './components/CartPage/Cart';
 import Desc from './components/productDesc/Desc';
 import {ToastContainer} from "react-toastify";
 
-
-
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 
 function App() {
@@ -22,13 +19,13 @@ function App() {
       <ToastContainer/>
       <Navbar />
       <Routes>
-        <Login/>
-        <Registration/>
+        {/* <Login/> */}
+        {/* <Registration/> */}
         <Route path="/home" element={<Home />} />
         
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/aboutUS" element={<AboutUS />} />
-        <Route path="/mobile" element={<Mobile />} />
+        {/* <Route path="/mobile" element={<Mobile />} /> */}
         <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
 
