@@ -7,17 +7,18 @@ export const Page2 = () => {
       {
         first:"syed",
         last:"mohd",
-        city:"seohara",
-        state:"up",
+        city:"Agra",
+        state:"Uttar Pradesh",
         country:"India",
         tel:"9760484562",
         postal:"246746",
-        line1:"first line",
-        line2:"second line"
+        line1:"Hindu Choudnriyan",
+        line2:"Near Electric Transformer"
       }
     ]
 
     let amount=JSON.parse(localStorage.getItem("total"));
+    console.log(amount);
   return (
     <div>
     <div>

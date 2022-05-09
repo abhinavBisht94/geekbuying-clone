@@ -167,9 +167,6 @@ export const Billing = () => {
     }
 
     let amount=JSON.parse(localStorage.getItem("total"));
-    useEffect(()=>{
-      setOrder(order+amount);
-    },[])
     
   return  (
     <div>
@@ -222,16 +219,16 @@ export const Billing = () => {
    </table>
    </form>
     <div className={styles.button}>
-    <Link to='/page2'><button className={styles.save} onClick={HandleSave} >Save</button></Link>
+    <Link  to='/page2'><button className={styles.save} onClick={HandleSave} >Save</button></Link>
     <button className={styles.cancel} onClick={handleCancel}> Cancel</button>
     </div>
     
     </div>
-    <div className='box2' >
-    <h3>Product List</h3>
-    <div>
+    // <div className='box2' >
+    // <h3>Product List</h3>
+    // <div>
 
-    </div>
+    // </div>
     </div>
     <h3>Shipping & Delivery</h3>
     <div className={styles.box3} >
@@ -274,7 +271,7 @@ export const Billing = () => {
     {showReturn && <p>Local Return Service : {"₹​ 520"}</p>}
     {showCoupon && <p>Coupon Applied :{`- ₹​ ${coupon_value}`}</p>}
     <br/>
-    <p>Grand Total:{order}</p>
+    <p>Grand Total:{amount}</p>
     <input className={styles.order} type={"button"} value={"Place Your Order"} />
     </div>
     </div>
