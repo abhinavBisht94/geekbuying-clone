@@ -1,0 +1,16 @@
+#extraSignup {
+  margin: auto;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  text-align: center;
+}
+
+#extraSignup button {
+  padding: 0.5rem 5rem;
+  background-color: #ff9c01;
+  border-radius: 5px;
+  border: none;
+}
