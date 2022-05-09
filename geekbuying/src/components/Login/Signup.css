@@ -6,20 +6,37 @@
     flex-direction: column;
     text-align: center;
     font-size: larger;
+    
   }
   .inner{
-    width:550px;
+    width:450px;
     margin:auto;
     background-color: rgb(255, 255, 255);
     /* border-radius: 15px; */
     transition: all .3s;
     padding:25px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    height:auto;
+    border:1px solid black;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  }
+  .inner .form-control{
+    height:20px;
+    width:200px;
+    border:1px solid black;
   }
   .outer .form-control{
     border-color: rgb(219, 224, 224);
     box-shadow: none;
-    font-size: 19px;
+    /* font-size: 20px;
+    margin:7px;
+    padding:10px; */
+    height:40px;
+    width:350px;
+    border:1px solid black;
+    padding:5px;
+    margin-top: 20px;
+    font-size: 14px;
+    
   
   }
   .outer h3{
@@ -40,21 +57,23 @@
   font-size:19px;
   }
   .s{
-    margin-top: 12px;
-  background-color: rgb(255, 255, 255);
-  width:100%;
-  border-radius: 15px;
-  font-size: 25px;
-  color:black;
-  font-weight: bold;
+    
+    height:40px;
+    width:350px;
+    padding:5px;
+    margin-top: 20px;
+    font-size: 14px;
+  background-color: rgb(245, 161, 7);
   }
   .hint{
-    font-size: 25px;
-    color:purple;
+    font-size: 20px;
+    color:black;
     font-weight:bold;
   }
   Alert{
     font-size: larger;
-    color:orangered;
+    color:rgb(245, 161, 7);
   }
+ 
+  
   

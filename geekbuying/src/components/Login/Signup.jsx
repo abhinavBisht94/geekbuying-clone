@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {Alert} from 'react-bootstrap';
 import Login from './Login';
 import './Signup.css';
-import "/node_modules/bootstrap/dist/css/bootstrap.css";
+//import "/node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Registration = () => {
    
@@ -40,42 +40,44 @@ const Registration = () => {
     }
 
   return (
-    <div>
+    <div className="box">
            <div className='outer'>
            <div className='inner'>
         {login ? (
 
         <form onSubmit={handleSubmit}>
-            <h1>Create Account</h1>
+            <h1>Create Your Account</h1>
             <div className='form-group'>
-                <label>Name</label>
+                {/* <label>Name</label> */}
                 <input type='text' className='form-control'
                  placeholder='Enter full Name'
                  onChange={(event)=> setName(event.target.value)} />
 
             </div>
             <div className='form-group'>
-                <label>Email</label>
+                {/* <label>Email</label> */}
                 <input type='text' className='form-control'
                  placeholder='Enter mail'
                  onChange={(event)=> setEmail(event.target.value)} />
                 
             </div>
             <div className='form-group'>
-                <label>Password</label>
+                {/* <label>Password</label> */}
                 <input type='password' className='form-control'
                  placeholder='Enter Password'
                  onChange={(event)=> setPassword(event.target.value)} />
                 
             </div>
             <div className='form-group'>
-                <label>Phone number</label>
+                {/* <label>Phone number</label> */}
                 <input type='text' className='form-control'
                  placeholder='Enter mobile number'
                  onChange={(event)=> setPhone(event.target.value)} />
                 
             </div>
-            <button type="submit" className='s'>Submit</button>
+            <input type="checkbox" id="C" name="C" value="C"/>  
+                 <label>I agree to GeekBuying's Terms of Use & Privacy Policy.</label><br/>
+            <button type="submit" className='s'>Create Account</button>
             <p className='hint' onClick={handleClick} >Alread Registered login ?</p>
 
             {flag && (
