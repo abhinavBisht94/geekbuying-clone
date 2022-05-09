@@ -32,7 +32,7 @@ return (
     <div>
        
         <form onSubmit={handleLogin}>
-            <h3>Login Form</h3>
+            <h3>Sign In</h3>
 <div className='form-group'>
                 <label>Email</label>
                 <input type='text' className='form-control'
