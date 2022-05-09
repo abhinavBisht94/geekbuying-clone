@@ -46,25 +46,25 @@ const Registration = () => {
         {login ? (
 
         <form onSubmit={handleSubmit}>
-            <h1>Create Your Account</h1>
+            <h3>Create Your Account</h3>
             <div className='form-group'>
                 {/* <label>Name</label> */}
                 <input type='text' className='form-control'
-                 placeholder='Enter full Name'
+                 placeholder='Nick Name'
                  onChange={(event)=> setName(event.target.value)} />
 
             </div>
             <div className='form-group'>
                 {/* <label>Email</label> */}
                 <input type='text' className='form-control'
-                 placeholder='Enter mail'
+                 placeholder='Email address'
                  onChange={(event)=> setEmail(event.target.value)} />
                 
             </div>
             <div className='form-group'>
                 {/* <label>Password</label> */}
                 <input type='password' className='form-control'
-                 placeholder='Enter Password'
+                 placeholder=' Password'
                  onChange={(event)=> setPassword(event.target.value)} />
                 
             </div>
@@ -75,7 +75,7 @@ const Registration = () => {
                  onChange={(event)=> setPhone(event.target.value)} />
                 
             </div>
-            <input type="checkbox" id="C" name="C" value="C"/>  
+            <input type="checkbox" />  
                  <label>I agree to GeekBuying's Terms of Use & Privacy Policy.</label><br/>
             <button type="submit" className='s'>Create Account</button>
             <p className='hint' onClick={handleClick} >Alread Registered login ?</p>

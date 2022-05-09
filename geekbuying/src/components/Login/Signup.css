@@ -16,7 +16,7 @@
     transition: all .3s;
     padding:25px;
     height:auto;
-    border:1px solid black;
+    /* //border:1px solid black; */
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
   }
   .inner .form-control{
@@ -32,7 +32,7 @@
     padding:10px; */
     height:40px;
     width:350px;
-    border:1px solid black;
+    
     padding:5px;
     margin-top: 20px;
     font-size: 14px;

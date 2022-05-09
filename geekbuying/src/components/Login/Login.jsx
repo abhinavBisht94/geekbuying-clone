@@ -34,17 +34,20 @@ return (
         <form onSubmit={handleLogin}>
             <h3>Sign In</h3>
 <div className='form-group'>
-                <label>Email</label>
+                {/* <label>Email</label> */}
                 <input type='text' className='form-control'
-                 placeholder='Enter mail'
+                 placeholder='Email address'
                  onChange={(event)=> setEmaillog(event.target.value)} />
                 
             </div>
             <div className='form-group'>
-                <label>Password</label>
+                {/* <label>Password</label> */}
                 <input type='password' className='form-control'
-                 placeholder='Enter Password'
-                 onChange={(event)=> setPasswordlog(event.target.value)} />
+                 placeholder=' Password'
+                 onChange={(event)=> setPasswordlog(event.target.value)} /><br/>
+
+                {/* <input type="checkbox" />  
+                 <label>Keep me Signed in </label><br/> */}
                 
             </div>
             <Link to="/cart"><button type="submit" className='s'>Login</button></Link>
