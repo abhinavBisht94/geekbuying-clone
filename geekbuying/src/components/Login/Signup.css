@@ -10,11 +10,11 @@
   .inner{
     width:550px;
     margin:auto;
-    background-color: rgb(214, 224, 224);
-    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 15px; */
     transition: all .3s;
     padding:25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   }
   .outer .form-control{
     border-color: rgb(219, 224, 224);
@@ -41,7 +41,7 @@
   }
   .s{
     margin-top: 12px;
-  background-color: rgb(29, 214, 193);
+  background-color: rgb(255, 255, 255);
   width:100%;
   border-radius: 15px;
   font-size: 25px;

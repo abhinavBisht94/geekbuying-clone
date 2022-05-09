@@ -1,6 +1,6 @@
 
 // import Login from "./components/Login/Login";
-// import Registration from "./components/Login/Signup";
+ import Registration from "./components/Login/Signup";
 import Footer from "./components/Navbar-Footer/Footer";
 import "./components/home/home.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -28,7 +28,7 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
-        {/* <Route path="/login" element={<Registration/>}/> */}
+        <Route path="/login" element={<Registration/>}/> 
         <Route path="" element={<Navigate to="home" />} />
 
       </Routes>
