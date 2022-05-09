@@ -164,7 +164,9 @@ const onclick=()=>{
     <div className="main"style={{background:"#f2f2f2",height:"3340px",width:"100%"}}>
       <div className='reddiv'>
         <div className='slideshow'>
-        <img src={images[imgInd]} alt={imgInd} />
+       <a href='./mobile'>
+           <img src={images[imgInd]} alt={imgInd} />
+           </a> 
       <div className="slider">
         {images.map((_, ind) => (
           <div
@@ -176,10 +178,12 @@ const onclick=()=>{
         </div>
         <div className='side-div'>
             <div className='div1'>
-                <img  src="https://img.gkbcdn.com/s3/bn/2205/424040350160-626f35a32b40c9339cabd74a.jpg" alt="" />
+               <a href='./mobile'>
+                    <img  src="https://img.gkbcdn.com/s3/bn/2205/424040350160-626f35a32b40c9339cabd74a.jpg" alt="" />
+                   </a>
             </div>
             <div className='div2'>
-                <img src="https://img.gkbcdn.com/s3/bn/2205/471160350x242-626f38162b40c9339cabd74e.jpg" alt="" />
+            <a href='./mobile'> <img src="https://img.gkbcdn.com/s3/bn/2205/471160350x242-626f38162b40c9339cabd74e.jpg" alt="" /></a>
             </div>
             
         </div>
