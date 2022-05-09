@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import signin  from  "./components/signin";
-=======
 import "./components/home/home.css";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar-Footer/Navbar";
@@ -17,7 +15,6 @@ import {ToastContainer} from "react-toastify";
 
 
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
->>>>>>> 416a7dee43c942ae7d905e8a48016190e0186a05
 
 function App() {
   return (
