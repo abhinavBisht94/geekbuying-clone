@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import signin  from  "./components/signin";
+import { Billing } from "./components/CheckOut/Billing";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/mobile/:id" element={<Desc />} />
         <Route path="/cart"  element={<Cart/>}/>
-
+        <Route path="/billing" element={<Billing/>}/>
         {/* Default page */}
         <Route path="" element={<Navigate to="home" />} />
       </Routes>
