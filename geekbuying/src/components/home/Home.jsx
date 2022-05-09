@@ -190,22 +190,22 @@ const onclick=()=>{
           <div className='second-div-block'>
               <div className='second-div-block-upper1'></div>
               <p style={{textAlign:"center",fontSize:"14px",fontWeight:"500"}}>SENBONO Max2 Smartwatch</p>
-              <div><img src="https://img.gkbcdn.com/s3/bn/2205/497705-626f45ba2b40c9339c112e8e.jpg" alt="" /></div>
+              <a href='./mobile'><img src="https://img.gkbcdn.com/s3/bn/2205/497705-626f45ba2b40c9339c112e8e.jpg" alt="" /></a>
           </div>
           <div className='second-div-block'>
               <div className='second-div-block-upper2'></div>
               <p style={{textAlign:"center",fontSize:"14px",fontWeight:"500"}}>ROIDMI EVE Plus</p>
-              <div><img src="https://img.gkbcdn.com/s3/bn/2205/449701-626f45ea2b40c9339c112e8f.jpg" alt="" /></div>
+              <a href='./mobile'><img src="https://img.gkbcdn.com/s3/bn/2205/449701-626f45ea2b40c9339c112e8f.jpg" alt="" /></a>
           </div>
           <div className='second-div-block'>
               <div className='second-div-block-upper3'></div>
               <p style={{textAlign:"center",fontSize:"14px",fontWeight:"500"}}>SYL-14 Off-Road E-Skateboard</p>
-              <div><img src="https://img.gkbcdn.com/s3/bn/2205/463887-626f45612b40c9339c112e8d.jpg" alt="" /></div>
+              <a href='./mobile'><img src="https://img.gkbcdn.com/s3/bn/2205/463887-626f45612b40c9339c112e8d.jpg" alt="" /></a>
           </div>
           <div className='second-div-block'>
               <div className='second-div-block-upper4'></div>
               <p style={{textAlign:"center",fontSize:"14px",fontWeight:"500"}}>Garden Supplies</p>
-              <div><img src="https://img.gkbcdn.com/s3/bn/2205/499068-626f46232b40c9339c112e90.jpg" alt="" /></div>
+              <a href='./mobile'><img src="https://img.gkbcdn.com/s3/bn/2205/499068-626f46232b40c9339c112e90.jpg" alt="" /></a>
           </div>
       </div>
 
@@ -446,7 +446,9 @@ const onclick=()=>{
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
           {/* <div style={{marginTop:"50px",height:"20px"}}>abc</div> */}
-                    <img src="https://img.gkbcdn.com/p/2019-03-22/tronsmart-glary-virtual-7-1-gaming-headset-1571985014193._w280_p1_.jpg" alt="" />
+                    <a href="./mobile">
+                        <img src="https://img.gkbcdn.com/p/2019-03-22/tronsmart-glary-virtual-7-1-gaming-headset-1571985014193._w280_p1_.jpg" alt="" />
+                        </a>
                 </div>
                 <div className='six-div-title-images-price'>
                     <div className='product-discription'>
@@ -459,7 +461,9 @@ const onclick=()=>{
             </div>
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2019-10-11/jjrc-x12-4k-gps-rc-drone-white-two-batteries-with-bag-1574132236117._w280_p1_.jpg" alt="" />
+                   <a href="./mobile">
+                       <img src="https://img.gkbcdn.com/p/2019-10-11/jjrc-x12-4k-gps-rc-drone-white-two-batteries-with-bag-1574132236117._w280_p1_.jpg" alt="" />
+                       </a> 
                 </div>
                 <div className='six-div-title-images-price'>
                 <div className='product-discription'>
@@ -472,7 +476,9 @@ const onclick=()=>{
             </div>
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2021-12-09/A9-1080P-Mini-Wireless-WIFI-IP-Camera-480325-0._w280_p1_.jpg" alt="" />
+                   <a href="./mobile">
+                        <img src="https://img.gkbcdn.com/p/2021-12-09/A9-1080P-Mini-Wireless-WIFI-IP-Camera-480325-0._w280_p1_.jpg" alt="" />
+                       </a> 
                 </div>
                 <div className='six-div-title-images-price'>
                 <div className='product-discription'>
@@ -485,7 +491,8 @@ const onclick=()=>{
             </div>
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2021-11-29/razer-deathadder-essential-optical-gaming-mouse-black-aa9d23-1638169302886._w280_p1_.jpg" alt="" />
+                <a href="./mobile">   <img src="https://img.gkbcdn.com/p/2021-11-29/razer-deathadder-essential-optical-gaming-mouse-black-aa9d23-1638169302886._w280_p1_.jpg" alt="" />
+                </a>
                 </div>
                 <div className='six-div-title-images-price'>
                 <div className='product-discription'>
@@ -498,7 +505,10 @@ const onclick=()=>{
             </div>
             <div className='six-div-title-images'>
                 <div className='six-div-title-images1'>
-                    <img src="https://img.gkbcdn.com/p/2019-10-28/enchen-blackstone-3d-smart-electric-shaver-black-1574132742777._w280_p1_.jpg" alt="" />
+                <a href="./mobile">
+                 <img src="https://img.gkbcdn.com/p/2019-10-28/enchen-blackstone-3d-smart-electric-shaver-black-1574132742777._w280_p1_.jpg" alt="" />
+            </a>
+              
                 </div>
                 <div className='six-div-title-images-price'>
                 <div className='product-discription'>
