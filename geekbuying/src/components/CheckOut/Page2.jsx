@@ -18,6 +18,7 @@ export const Page2 = () => {
     ]
 
     let amount=JSON.parse(localStorage.getItem("total"));
+    console.log(amount);
   return (
     <div>
     <div>
