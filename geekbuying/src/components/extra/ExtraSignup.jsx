@@ -12,9 +12,16 @@ const ExtraSignup = () => {
       <input type="password" name="" id="" />
       <br />
 
+      <div id="extraSignupCheck" >
+        <input type="checkbox" name="" id="" />
+        <p>Keep me signed in</p> <ul>Forgot your password?</ul>
+      </div>
+
       <Link to="/home">
-        <button>Login</button>
+        <button id="extraSignupButton">Login</button>
       </Link>
+
+      <button>Create a new Account</button>
     </div>
   );
 };
