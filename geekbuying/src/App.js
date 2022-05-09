@@ -25,6 +25,8 @@ function App() {
       <ToastContainer/>
       <Navbar />
       <Routes>
+        <Login/>
+        <Registration/>
         <Route path="/home" element={<Home />} />
         
         <Route path="/mobile" element={<Mobile />} />
