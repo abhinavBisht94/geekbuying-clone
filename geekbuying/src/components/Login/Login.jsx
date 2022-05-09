@@ -3,7 +3,7 @@ import {Alert} from "react-bootstrap";
 //import Home from './Home';
 import { Link } from 'react-router-dom';
 import './Signup.css';
-import "/node_modules/bootstrap/dist/css/bootstrap.css";
+//import "/node_modules/bootstrap/dist/css/bootstrap.css";
 const Login = () => {
 
 const [emaillog,setEmaillog]=useState("");
