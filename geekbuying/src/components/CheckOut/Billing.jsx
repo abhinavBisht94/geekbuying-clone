@@ -171,34 +171,34 @@ export const Billing = () => {
   return  (
     <div>
     <div className={styles.header}>
-    <img src='/geek_buying.jpg' alt={"name"}/>
+    <img className={styles.image} src='/geek_buying.jpg' alt={"name"}/>
     </div>
     <h3>Shipping Address</h3>
     <div className={styles.colorBox}><p>To ensure delivery and prevent delays, please enter the valid alphabetic character.</p></div>
     <div className={styles.box1} >
     <form>
-    <table style={{listStyle:"none"}}>
+    <table className={styles.table} style={{listStyle:"none"}}>
     <thead></thead>
     <tbody>
     <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>First Name:</td><td><input className={styles.Input} type={"text"} value={fname} onChange={(e)=> setfName(e.target.value)} /></td></tr>
     <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>Last Name:</td><td><input className={styles.Input} type={"text"} value={lname} onChange={(e)=> setlName(e.target.value)}  /></td></tr>
     
    
-    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>Country/Region:</td><td><select onChange={(e)=> setCountryId(e.target.value)} >
+    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>Country/Region:</td><td><select className={styles.select} onChange={(e)=> setCountryId(e.target.value)} >
     <option></option>
     {country.map((getcountry)=>(
       <option key={getcountry.iso3} value={getcountry.name} >{getcountry.name}</option>
     ))}
     </select></td></tr>
     
-    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>State/Province/Country:</td><td><select  onChange={(e)=>setStateName(e.target.value)}>
+    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>State/Province/Country:</td><td><select className={styles.select}  onChange={(e)=>setStateName(e.target.value)}>
     <option></option>
     {st.map((elem)=>(
       <option key={elem.state_code} value={elem.name}  >{elem.name}</option>
     ))}
     </select></td></tr>
 
-    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>City:</td><td><select onChange={(e)=> setCityName(e.target.value)} >
+    <tr><td className={styles.left_content}><span className={styles.astrick}>*</span>City:</td><td><select className={styles.select} onChange={(e)=> setCityName(e.target.value)} >
     <option></option>
     {city.map((elem,index)=>(
       <option key={index} value={elem} >{elem}</option>

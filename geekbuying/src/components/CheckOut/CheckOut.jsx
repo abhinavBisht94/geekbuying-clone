@@ -27,7 +27,7 @@ export const CheckOut = () => {
   return (
     <div>
     <div className={styles.header}>
-    <img src='/geek_buying.jpg' alt={"name"}/>
+    <img className={styles.image} src='/geek_buying.jpg' alt={"name"}/>
     </div>
     <h3>Payment Method</h3>
     <div className={styles.main_box}>
