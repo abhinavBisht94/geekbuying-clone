@@ -32,10 +32,6 @@ export const Page2 = () => {
       <div><span className={styles.coupon1}>Address:</span>{`${shippingAddress[0].line1} ${shippingAddress[0].line2} ${shippingAddress[0].city} 
       ${shippingAddress[0].state}, ${shippingAddress[0].postal} ${shippingAddress[0].country}`}</div>
     </div>
-    <div className='box2' >
-    <h3>Product List</h3>
-    <div></div>
-    </div>
     <h3>Shipping & Delivery</h3>
     <div className={styles.shipping}>
     <div className={styles.first_row1}>
