@@ -83,10 +83,12 @@ const NavbarMid = () => {
 
       <div id="navMidRightButton">
         {/* <img src="https://i.ibb.co/jr8y62h/user.png"> */}
+        <Link to='/login'>
         <button>
           <img src="https://i.ibb.co/jr8y62h/user.png" />
           Sign in
         </button>
+        </Link>
 
         <button>
           <img src="https://i.ibb.co/F3LgrPd/heart.png" />

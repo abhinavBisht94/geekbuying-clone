@@ -36,6 +36,7 @@ export const Cart = () => {
         });
         setPrice(price);
     }
+    localStorage.setItem("total",JSON.stringify(price))
 
     useEffect(()=> {
         total();
@@ -108,7 +109,7 @@ export const Cart = () => {
                                        <span className="amount">₹ {price}</span>
                                    </div>
                                    <p>Taxes and shipping calculated at checkout</p>
-                                   <button>Proceed to checkout</button>
+                                   <Link to="/billing"><button>Proceed to checkout</button></Link>
                                    <div className="continue-shopping">
                             <Link to="/">
                             <svg xmlns="http://www.w3.org/2000/svg"
