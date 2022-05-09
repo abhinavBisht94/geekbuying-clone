@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './CheckOut.module.css';
+import { useNavigate } from 'react-router-dom';
 
 export const CheckOut = () => {
 
@@ -14,12 +15,18 @@ export const CheckOut = () => {
     const handleChange=(e)=>{
         setShowCredit(false);
     }
+    const Navigate= useNavigate();
+    
     const showMessage=()=>{
       if(card==="123456789"  && month==="01/24" && cvv==="257"){
         alert("Order Successful");
       }else{
         alert("Invalid Credentials");
       }
+      setTimeout(()=>{
+        Navigate(<Navigate to="home" />)
+      },1000)
+
     }
 
     let amount=JSON.parse(localStorage.getItem("total"));
