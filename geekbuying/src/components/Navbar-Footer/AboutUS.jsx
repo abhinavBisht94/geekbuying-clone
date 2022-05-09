@@ -72,13 +72,13 @@ const AboutUS = () => {
           <a href="https://www.linkedin.com/in/aman-dubey-65170920b/">
             <h4>Aman Dubey</h4>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/abhiyanrai">
             <h4>Abhishek Kumar Rai</h4>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/noorbasha-shaik-491aa2201/">
             <h4>Shaik Noorbasha</h4>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/sayyad-gul-mohammad/">
             <h4>Sayyad Gul Mohammad</h4>
           </a>
           <a href="https://www.linkedin.com/in/abhishek-kansana-36608a233/">
