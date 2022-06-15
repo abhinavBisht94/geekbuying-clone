@@ -12,7 +12,7 @@ Blog : https://medium.com/@abhinav805/geekbuying-com-clone-b44f17a711ab
 
 Github ripository : https://github.com/abhinavBisht94/geekbuying-clone/tree/main/geekbuying
 
-Netlify : https://geekbuying-clone.netlify.app
+Hosted website (Netlify) : https://geekbuying-clone.netlify.app
 
 </p>
 
