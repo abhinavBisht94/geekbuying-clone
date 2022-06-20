@@ -1,4 +1,4 @@
-<h2>Croma.com</h2>
+<h2>Geekbuying.com</h2>
 
 <p>
 Geekbuying was founded in 2012 with the mission of creating a platform that truly puts the customer first. Since its inception, they have become one of the leading E-commerce platforms selling a wide range of consumer electronic gadgets. At Geekbuying you can expect to find products you’ll love, superior service, and fast global shipping!
