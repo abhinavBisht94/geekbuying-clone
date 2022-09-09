@@ -14,7 +14,7 @@ export const CheckOut = () => {
   const handleChange = (e) => {
     setShowCredit(false);
   };
-  const navigate= useNavigate();
+  const navigate = useNavigate();
 
   const showMessage = () => {
     if (card === "123456789" && month === "01/24" && cvv === "257") {
@@ -24,7 +24,7 @@ export const CheckOut = () => {
     }
     setTimeout(() => {
       // <Navigate to="home" />;
-        navigate("/home")
+      navigate("/home");
     }, 1000);
   };
 

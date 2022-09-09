@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 
 const NavbarMid = () => {
   const [show, setShow] = useState(false);
- 
+
   //Used to reflect Cart Add Item into Bag:-
-  const carts = useSelector((state)=>state.cartreducer.carts);
+  const carts = useSelector((state) => state.cartreducer.carts);
 
   const handleShow = () => {
     console.log("show:", show);
@@ -83,11 +83,11 @@ const NavbarMid = () => {
 
       <div id="navMidRightButton">
         {/* <img src="https://i.ibb.co/jr8y62h/user.png"> */}
-        <Link to='/login'>
-        <button>
-          <img src="https://i.ibb.co/jr8y62h/user.png" />
-          Sign in
-        </button>
+        <Link to="/login">
+          <button>
+            <img src="https://i.ibb.co/jr8y62h/user.png" />
+            Sign in
+          </button>
         </Link>
 
         <button>
