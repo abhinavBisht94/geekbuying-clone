@@ -1,5 +1,8 @@
 <h2>Geekbuying.com</h2>
 
+<p> DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.
+</p>
+
 <p>
 Geekbuying was founded in 2012 with the mission of creating a platform that truly puts the customer first. Since its inception, they have become one of the leading E-commerce platforms selling a wide range of consumer electronic gadgets. At Geekbuying you can expect to find products you’ll love, superior service, and fast global shipping!
 </p>
